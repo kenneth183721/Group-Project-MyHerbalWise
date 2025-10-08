@@ -1,0 +1,13 @@
+[
+    {
+        "userID": "uid01",
+        "foodID": [
+            "food06",
+            "food36"
+        ],
+        "quantity": "1",
+        "unit": "碟",
+        "date": "2024-06-15",
+        "mealType": "晚餐"
+    }
+]

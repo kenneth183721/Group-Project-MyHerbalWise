@@ -1,0 +1,143 @@
+/* Splash Screen Animations */
+@keyframes splashPulse {
+    0%, 100% { 
+        transform: scale(1); 
+    }
+    50% { 
+        transform: scale(1.05); 
+    }
+}
+
+@keyframes splashDot1 {
+    0%, 80%, 100% { 
+        transform: scale(0.8); 
+        opacity: 0.5; 
+    }
+    40% { 
+        transform: scale(1.2); 
+        opacity: 1; 
+    }
+}
+
+@keyframes splashDot2 {
+    0%, 80%, 100% { 
+        transform: scale(0.8); 
+        opacity: 0.5; 
+    }
+    40% { 
+        transform: scale(1.2); 
+        opacity: 1; 
+    }
+}
+
+@keyframes splashDot3 {
+    0%, 80%, 100% { 
+        transform: scale(0.8); 
+        opacity: 0.5; 
+    }
+    40% { 
+        transform: scale(1.2); 
+        opacity: 1; 
+    }
+}
+
+/* Apply stagger to dots */
+.splash-dot-2 {
+    animation-delay: 0.2s;
+}
+
+.splash-dot-3 {
+    animation-delay: 0.4s;
+}
+
+/* Page Transition Animations */
+.page-fade-enter {
+    opacity: 0;
+}
+
+.page-fade-enter-active {
+    opacity: 1;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.page-fade-exit {
+    opacity: 1;
+}
+
+.page-fade-exit-active {
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.page-slide-enter {
+    transform: translateX(100%);
+}
+
+.page-slide-enter-active {
+    transform: translateX(0);
+    transition: transform 0.4s ease-in-out;
+}
+
+.page-slide-exit {
+    transform: translateX(0);
+}
+
+.page-slide-exit-active {
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in-out;
+}
+
+.page-scale-enter {
+    transform: scale(0.9);
+    opacity: 0;
+}
+
+.page-scale-enter-active {
+    transform: scale(1);
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.page-scale-exit {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.page-scale-exit-active {
+    transform: scale(1.1);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+/* Loading spinner for route changes */
+.route-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.route-loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #284E35;
+    border-radius: 50%;
+    animation: routeSpinner 1s linear infinite;
+}
+
+@keyframes routeSpinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Smooth header transitions */
+.header-transition {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Page container with consistent transitions */
+.page-container {
+    min-height: 80vh;
+    transition: all 0.3s ease-in-out;
+}

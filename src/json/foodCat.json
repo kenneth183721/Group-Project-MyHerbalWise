@@ -1,0 +1,7 @@
+[
+    {"foodCatID":"FC01","foodCatName":"溫性"},
+    {"foodCatID":"FC02","foodCatName":"熱性"},
+    {"foodCatID":"FC03","foodCatName":"涼性"},
+    {"foodCatID":"FC04","foodCatName":"寒性"},
+    {"foodCatID":"FC05","foodCatName":"平性"}
+]

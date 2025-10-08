@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "userId": "uid01",
+    "userName": "Test User",
+    "healthStatusID": "hs01",
+    "healthStatusName": "感冒",
+    "date": "2025-09-21",
+    "symptoms": "感受觸冒風邪，邪犯卫表而導致的常見外感疾病，臨床以鼻塞、流涕、噴嚏、咳嗽、頭痛、惡寒、發熱、全身不适為特徵。",
+    "notes": "測試備註",
+    "severity": "輕微",
+    "timestamp": "2025-09-22T01:11:23.237Z"
+  },
+  {
+    "id": 2,
+    "userId": "uid02",
+    "userName": "",
+    "healthStatusID": "hs113",
+    "healthStatusName": "臉癱",
+    "date": "2025-09-20",
+    "symptoms": "面部一側肌肉突然癱瘓，表情不對稱，口角歪斜，眼皮不能閉合，流淚、流涎，味覺減退或喪失。",
+    "notes": "",
+    "severity": "輕微",
+    "timestamp": "2025-09-20T16:59:13.130Z"
+  }
+]

@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔔 Push Notification Testing Center</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+                } catch (error) {
+                log(`Failed to unsubscribe: ${error.message}`, 'error');
+            }
+        };
+
+        document.getElementById('resubscribeFresh').onclick = async function() {
+            try {
+                log('🔄 Starting fresh re-subscription process...');
+                
+                // Step 1: Unsubscribe existing
+                const registration = await navigator.serviceWorker.ready;
+                const existingSubscription = await registration.pushManager.getSubscription();
+                
+                if (existingSubscription) {
+                    await existingSubscription.unsubscribe();
+                    log('🗑️ Removed old subscription', 'success');
+                }
+                
+                // Step 2: Wait a moment
+                await new Promise(resolve => setTimeout(resolve, 1000));
+                
+                // Step 3: Create fresh subscription
+                const vapidKey = 'BJpVkaHfDGhLiflrRtwTf3l7iSlU8WCgilb9Fy3j_UYuGLfWHu0FU-6vyc26LoLv1ME0c7-OODYFHduR2qEsXFo';
+                
+                function urlBase64ToUint8Array(base64String) {
+                    const padding = '='.repeat((4 - base64String.length % 4) % 4);
+                    const base64 = (base64String + padding)
+                        .replace(/\-/g, '+')
+                        .replace(/_/g, '/');
+                    const rawData = window.atob(base64);
+                    const outputArray = new Uint8Array(rawData.length);
+                    for (let i = 0; i < rawData.length; ++i) {
+                        outputArray[i] = rawData.charCodeAt(i);
+                    }
+                    return outputArray;
+                }
+
+                const newSubscription = await registration.pushManager.subscribe({
+                    userVisibleOnly: true,
+                    applicationServerKey: urlBase64ToUint8Array(vapidKey)
+                });
+
+                log('✅ Created fresh push subscription', 'success');
+                log(`   New endpoint: ...${newSubscription.endpoint.slice(-20)}`);
+                
+                // Step 4: Save to server with current user ID (you can change this)
+                const userId = document.getElementById('targetUser').value || 'uid01';
+                
+                const response = await fetch('http://localhost:3001/api/push/subscribe', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        userId: userId,
+                        subscription: newSubscription.toJSON()
+                    })
+                });
+
+                if (response.ok) {
+                    log(`✅ Fresh subscription saved for user: ${userId}`, 'success');
+                    log('🎯 Try sending notifications now!', 'success');
+                } else {
+                    log('⚠️ Failed to save fresh subscription to server', 'warning');
+                }
+
+            } catch (error) {
+                log(`Fresh re-subscribe failed: ${error.message}`, 'error');
+            }
+        };
+
+        // Notification Testing
+        document.getElementById('testWeb').onclick = function() {ntainer {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+        }
+        .section h3 {
+            margin-top: 0;
+            color: #495057;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+            min-width: 160px;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            color: white;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        .btn-success {
+            background-color: #28a745;
+            color: white;
+        }
+        .btn-success:hover {
+            background-color: #1e7e34;
+        }
+        .btn-warning {
+            background-color: #ffc107;
+            color: #212529;
+        }
+        .btn-warning:hover {
+            background-color: #e0a800;
+        }
+        .btn-info {
+            background-color: #17a2b8;
+            color: white;
+        }
+        .btn-info:hover {
+            background-color: #138496;
+        }
+        .btn-danger {
+            background-color: #dc3545;
+            color: white;
+        }
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+        #results {
+            background-color: #1e1e1e;
+            color: #00ff00;
+            padding: 20px;
+            border-radius: 6px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 13px;
+            white-space: pre-line;
+            min-height: 200px;
+            max-height: 400px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+        .status {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .status-granted {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .status-denied {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        .status-default {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .clear-btn {
+            background-color: #6c757d;
+            color: white;
+            padding: 8px 16px;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .clear-btn:hover {
+            background-color: #545b62;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔔 Push Notification Testing Center</h1>
+        
+        <!-- Permission Section -->
+        <div class="section">
+            <h3>🔐 Step 1: Permission Management</h3>
+            <div class="button-group">
+                <button id="requestPermission" class="btn-primary">🔔 Request Permission</button>
+                <button id="checkPermission" class="btn-info">🔍 Check Permission</button>
+            </div>
+            <p><strong>Current Status:</strong> <span id="permissionStatus" class="status status-default">Unknown</span></p>
+        </div>
+
+        <!-- Service Worker Section -->
+        <div class="section">
+            <h3>🔧 Step 2: Service Worker Management</h3>
+            <div class="button-group">
+                <button id="registerSW" class="btn-success">📝 Register Service Worker</button>
+                <button id="checkSW" class="btn-info">🔍 Check Service Worker</button>
+                <button id="unregisterSW" class="btn-danger">🗑️ Unregister Service Worker</button>
+            </div>
+        </div>
+
+        <!-- Push Subscription Section -->
+        <div class="section">
+            <h3>📡 Step 3: Push Subscription Management</h3>
+            <div class="button-group">
+                <button id="subscribePush" class="btn-success">📡 Subscribe to Push</button>
+                <button id="checkSubscription" class="btn-info">🔍 Check Subscription</button>
+                <button id="unsubscribePush" class="btn-danger">🗑️ Unsubscribe</button>
+                <button id="resubscribeFresh" class="btn-warning">🔄 Fresh Re-subscribe</button>
+            </div>
+            <p><strong>💡 Tip:</strong> If getting "unexpected response code" errors, try "Fresh Re-subscribe"</p>
+        </div>
+
+        <!-- Notification Testing Section -->
+        <div class="section">
+            <h3>🧪 Step 4: Test Notifications</h3>
+            
+            <h4>Select Target User:</h4>
+            <select id="targetUser" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px;">
+                <option value="test-user">test-user</option>
+                <option value="uid01">uid01</option>
+                <option value="uid02">uid02</option>
+                <option value="custom">Custom User ID...</option>
+            </select>
+            
+            <input type="text" id="customUserId" placeholder="Enter custom user ID..." style="display: none; margin-bottom: 10px;">
+            
+            <div class="button-group">
+                <button id="refreshUsers" class="btn-info">🔄 Refresh User List</button>
+                <button id="testWeb" class="btn-warning">🌐 Test Web Notification</button>
+                <button id="testPushToUser" class="btn-success">� Send Push to Selected User</button>
+            </div>
+            
+            <h4>Custom Notification Test:</h4>
+            <input type="text" id="customTitle" placeholder="Notification Title" value="🧪 Test Notification">
+            <input type="text" id="customBody" placeholder="Notification Body" value="This is a test notification!">
+            <button id="sendCustomToUser" class="btn-info">📤 Send Custom to Selected User</button>
+        </div>
+
+        <!-- System Info Section -->
+        <div class="section">
+            <h3>📊 System Information</h3>
+            <button id="systemInfo" class="btn-info">📋 Show System Info</button>
+            <button id="serverHealth" class="btn-info">🏥 Check Server Health</button>
+            <button id="listSubscriptions" class="btn-info">👥 List All Subscriptions</button>
+            <button id="checkDuplicates" class="btn-warning">⚠️ Check for Duplicate Users</button>
+        </div>
+
+        <!-- Results Console -->
+        <button class="clear-btn" onclick="clearResults()">🗑️ Clear Console</button>
+        <div id="results">🎯 Notification Testing Console - Ready!
+Click buttons above to start testing...</div>
+    </div>
+
+    <script>
+        const results = document.getElementById('results');
+        const permissionStatusEl = document.getElementById('permissionStatus');
+
+        function log(message, type = 'info') {
+            const timestamp = new Date().toLocaleTimeString();
+            const emoji = type === 'error' ? '❌' : type === 'success' ? '✅' : type === 'warning' ? '⚠️' : 'ℹ️';
+            results.textContent += `[${timestamp}] ${emoji} ${message}\n`;
+            results.scrollTop = results.scrollHeight;
+            console.log(message);
+        }
+
+        function updatePermissionStatus() {
+            const permission = Notification.permission;
+            permissionStatusEl.textContent = permission;
+            permissionStatusEl.className = `status status-${permission}`;
+        }
+
+        function clearResults() {
+            results.textContent = '🎯 Console cleared - Ready for testing!\n';
+        }
+
+        // Initialize
+        updatePermissionStatus();
+        
+        // Handle custom user ID input
+        document.getElementById('targetUser').onchange = function() {
+            const customInput = document.getElementById('customUserId');
+            if (this.value === 'custom') {
+                customInput.style.display = 'block';
+            } else {
+                customInput.style.display = 'none';
+            }
+        };
+        
+        function getSelectedUserId() {
+            const select = document.getElementById('targetUser');
+            if (select.value === 'custom') {
+                return document.getElementById('customUserId').value || 'custom-user';
+            }
+            return select.value;
+        }
+
+        // Permission Management
+        document.getElementById('requestPermission').onclick = async function() {
+            log('🔔 Requesting notification permission...');
+            
+            if (!('Notification' in window)) {
+                log('Browser does not support notifications', 'error');
+                return;
+            }
+
+            try {
+                const permission = await Notification.requestPermission();
+                log(`Permission result: ${permission}`, permission === 'granted' ? 'success' : 'warning');
+                updatePermissionStatus();
+            } catch (error) {
+                log(`Permission request failed: ${error.message}`, 'error');
+            }
+        };
+
+        document.getElementById('checkPermission').onclick = function() {
+            const permission = Notification.permission;
+            const supported = 'Notification' in window;
+            const pushSupported = 'PushManager' in window;
+            const swSupported = 'serviceWorker' in navigator;
+            
+            log(`🔍 Notification Support: ${supported}`);
+            log(`🔍 Push Support: ${pushSupported}`);
+            log(`🔍 Service Worker Support: ${swSupported}`);
+            log(`🔍 Current Permission: ${permission}`, permission === 'granted' ? 'success' : 'warning');
+            updatePermissionStatus();
+        };
+
+        // Service Worker Management
+        document.getElementById('registerSW').onclick = async function() {
+            if (!('serviceWorker' in navigator)) {
+                log('Service Workers not supported', 'error');
+                return;
+            }
+
+            try {
+                log('🔧 Registering Service Worker...');
+                const registration = await navigator.serviceWorker.register('/sw.js');
+                log(`Service Worker registered: ${registration.scope}`, 'success');
+                
+                await navigator.serviceWorker.ready;
+                log('Service Worker is ready', 'success');
+            } catch (error) {
+                log(`Service Worker registration failed: ${error.message}`, 'error');
+            }
+        };
+
+        document.getElementById('checkSW').onclick = async function() {
+            if (!('serviceWorker' in navigator)) {
+                log('Service Workers not supported', 'error');
+                return;
+            }
+
+            try {
+                const registration = await navigator.serviceWorker.getRegistration('/');
+                if (registration) {
+                    log(`✅ Service Worker found: ${registration.scope}`);
+                    log(`   State: ${registration.active ? registration.active.state : 'inactive'}`);
+                    log(`   Installing: ${registration.installing ? 'Yes' : 'No'}`);
+                    log(`   Waiting: ${registration.waiting ? 'Yes' : 'No'}`);
+                } else {
+                    log('No Service Worker registered', 'warning');
+                }
+            } catch (error) {
+                log(`Failed to check Service Worker: ${error.message}`, 'error');
+            }
+        };
+
+        document.getElementById('unregisterSW').onclick = async function() {
+            try {
+                const registration = await navigator.serviceWorker.getRegistration('/');
+                if (registration) {
+                    await registration.unregister();
+                    log('Service Worker unregistered', 'success');
+                } else {
+                    log('No Service Worker to unregister', 'warning');
+                }
+            } catch (error) {
+                log(`Failed to unregister Service Worker: ${error.message}`, 'error');
+            }
+        };
+
+        // Push Subscription Management
+        document.getElementById('subscribePush').onclick = async function() {
+            try {
+                log('📡 Subscribing to push notifications...');
+                
+                const registration = await navigator.serviceWorker.ready;
+                const vapidKey = 'BJpVkaHfDGhLiflrRtwTf3l7iSlU8WCgilb9Fy3j_UYuGLfWHu0FU-6vyc26LoLv1ME0c7-OODYFHduR2qEsXFo';
+                
+                // Convert VAPID key
+                function urlBase64ToUint8Array(base64String) {
+                    const padding = '='.repeat((4 - base64String.length % 4) % 4);
+                    const base64 = (base64String + padding)
+                        .replace(/\-/g, '+')
+                        .replace(/_/g, '/');
+                    const rawData = window.atob(base64);
+                    const outputArray = new Uint8Array(rawData.length);
+                    for (let i = 0; i < rawData.length; ++i) {
+                        outputArray[i] = rawData.charCodeAt(i);
+                    }
+                    return outputArray;
+                }
+
+                const subscription = await registration.pushManager.subscribe({
+                    userVisibleOnly: true,
+                    applicationServerKey: urlBase64ToUint8Array(vapidKey)
+                });
+
+                log('Push subscription successful!', 'success');
+                log(`Endpoint: ${subscription.endpoint.substring(0, 50)}...`);
+                
+                // Save to server
+                const response = await fetch('http://localhost:3001/api/push/subscribe', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        userId: 'test-user',
+                        subscription: subscription.toJSON()
+                    })
+                });
+
+                if (response.ok) {
+                    log('Subscription saved to server', 'success');
+                } else {
+                    log('Failed to save subscription to server', 'warning');
+                }
+
+            } catch (error) {
+                log(`Push subscription failed: ${error.message}`, 'error');
+            }
+        };
+
+        document.getElementById('checkSubscription').onclick = async function() {
+            try {
+                const registration = await navigator.serviceWorker.ready;
+                const subscription = await registration.pushManager.getSubscription();
+                
+                if (subscription) {
+                    log('✅ Push subscription found');
+                    log(`   Endpoint: ${subscription.endpoint.substring(0, 50)}...`);
+                    log(`   Keys: ${Object.keys(subscription.toJSON().keys).join(', ')}`);
+                } else {
+                    log('No push subscription found', 'warning');
+                }
+            } catch (error) {
+                log(`Failed to check subscription: ${error.message}`, 'error');
+            }
+        };
+
+        document.getElementById('unsubscribePush').onclick = async function() {
+            try {
+                const registration = await navigator.serviceWorker.ready;
+                const subscription = await registration.pushManager.getSubscription();
+                
+                if (subscription) {
+                    await subscription.unsubscribe();
+                    log('Push subscription removed', 'success');
+                } else {
+                    log('No subscription to remove', 'warning');
+                }
+            } catch (error) {
+                log(`Failed to unsubscribe: ${error.message}`, 'error');
+            }
+        };
+
+        // User Management Functions
+        document.getElementById('refreshUsers').onclick = async function() {
+            try {
+                log('🔄 Refreshing user subscription list...');
+                const response = await fetch('http://localhost:3001/api/push/subscriptions');
+                const data = await response.json();
+                
+                const select = document.getElementById('targetUser');
+                // Keep custom option
+                const customOption = select.querySelector('option[value="custom"]');
+                select.innerHTML = '';
+                
+                if (data.subscriptions && data.subscriptions.length > 0) {
+                    data.subscriptions.forEach(sub => {
+                        const option = document.createElement('option');
+                        option.value = sub.userId;
+                        option.textContent = sub.userId;
+                        select.appendChild(option);
+                    });
+                    log(`Found ${data.subscriptions.length} subscribed users`, 'success');
+                } else {
+                    const option = document.createElement('option');
+                    option.value = 'no-users';
+                    option.textContent = 'No subscribed users';
+                    select.appendChild(option);
+                    log('No subscribed users found', 'warning');
+                }
+                
+                // Add custom option back
+                select.appendChild(customOption);
+                
+            } catch (error) {
+                log(`Failed to refresh users: ${error.message}`, 'error');
+            }
+        };
+
+        // Notification Testing
+        document.getElementById('testWeb').onclick = function() {
+            if (Notification.permission === 'granted') {
+                const notification = new Notification('🌐 Web Notification Test', {
+                    body: 'This is a web notification test. If you see this, web notifications are working!',
+                    icon: '/logo192.png',
+                    tag: 'web-test'
+                });
+
+                notification.onclick = function() {
+                    log('Web notification clicked', 'success');
+                    notification.close();
+                };
+
+                log('Web notification sent', 'success');
+            } else {
+                log('Cannot send web notification - permission not granted', 'error');
+            }
+        };
+
+        document.getElementById('testPushToUser').onclick = async function() {
+            const userId = getSelectedUserId();
+            
+            try {
+                log(`📱 Sending push notification to user: ${userId}...`);
+                const response = await fetch('http://localhost:3001/api/push/send', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        userId: userId,
+                        title: `📱 Push Test for ${userId}`,
+                        body: 'This is a targeted push notification test!',
+                        tag: 'user-test'
+                    })
+                });
+
+                const result = await response.text();
+                if (response.ok) {
+                    log(`Push notification sent successfully to ${userId}`, 'success');
+                    log(`Server response: ${result}`);
+                } else {
+                    log(`Push notification failed for ${userId}: ${result}`, 'error');
+                }
+            } catch (error) {
+                log(`Push notification error: ${error.message}`, 'error');
+            }
+        };
+
+        document.getElementById('sendCustomToUser').onclick = async function() {
+            const userId = getSelectedUserId();
+            const title = document.getElementById('customTitle').value;
+            const body = document.getElementById('customBody').value;
+
+            try {
+                log(`📤 Sending custom notification to ${userId}...`);
+                const response = await fetch('http://localhost:3001/api/push/send', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        userId: userId,
+                        title: title,
+                        body: body,
+                        tag: 'custom-user-test'
+                    })
+                });
+
+                const result = await response.text();
+                if (response.ok) {
+                    log(`Custom notification sent to ${userId}`, 'success');
+                } else {
+                    log(`Custom notification failed for ${userId}: ${result}`, 'error');
+                }
+            } catch (error) {
+                log(`Custom notification error: ${error.message}`, 'error');
+            }
+        };
+
+        document.getElementById('testPush').onclick = async function() {
+            try {
+                log('📱 Testing push notification...');
+                const response = await fetch('http://localhost:3001/api/push/send', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        userId: 'test-user',
+                        title: '📱 Push Notification Test',
+                        body: 'This is a push notification test from the testing page!',
+                        tag: 'push-test'
+                    })
+                });
+
+                const result = await response.text();
+                if (response.ok) {
+                    log('Push notification sent successfully', 'success');
+                    log(`Server response: ${result}`);
+                } else {
+                    log(`Push notification failed: ${result}`, 'error');
+                }
+            } catch (error) {
+                log(`Push notification error: ${error.message}`, 'error');
+            }
+        };
+
+        document.getElementById('testServer').onclick = async function() {
+            const userId = 'uid01'; // Your actual user ID
+            try {
+                log('🖥️ Testing server push notification...');
+                const response = await fetch('http://localhost:3001/api/push/send', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        userId: userId,
+                        title: '🖥️ Server Push Test',
+                        body: 'Testing push notification from server to your actual subscription!',
+                        tag: 'server-test'
+                    })
+                });
+
+                const result = await response.text();
+                if (response.ok) {
+                    log('Server push notification sent successfully', 'success');
+                } else {
+                    log(`Server push failed: ${result}`, 'error');
+                }
+            } catch (error) {
+                log(`Server push error: ${error.message}`, 'error');
+            }
+        };
+
+        document.getElementById('sendCustom').onclick = async function() {
+            const title = document.getElementById('customTitle').value;
+            const body = document.getElementById('customBody').value;
+
+            if (Notification.permission === 'granted') {
+                const notification = new Notification(title, {
+                    body: body,
+                    icon: '/logo192.png',
+                    tag: 'custom-test'
+                });
+
+                log(`Custom notification sent: ${title}`, 'success');
+            } else {
+                log('Cannot send custom notification - permission not granted', 'error');
+            }
+        };
+
+        // System Information
+        document.getElementById('systemInfo').onclick = function() {
+            log('📊 System Information:');
+            log(`   Browser: ${navigator.userAgent.split(' ').pop()}`);
+            log(`   Platform: ${navigator.platform}`);
+            log(`   Language: ${navigator.language}`);
+            log(`   Online: ${navigator.onLine}`);
+            log(`   Cookies Enabled: ${navigator.cookieEnabled}`);
+            log(`   Service Worker Support: ${'serviceWorker' in navigator}`);
+            log(`   Notification Support: ${'Notification' in window}`);
+            log(`   Push Support: ${'PushManager' in window}`);
+            log(`   Current URL: ${window.location.href}`);
+            log(`   Protocol: ${window.location.protocol}`);
+        };
+
+        document.getElementById('serverHealth').onclick = async function() {
+            try {
+                log('🏥 Checking server health...');
+                const response = await fetch('http://localhost:3001/api/health');
+                const data = await response.json();
+                
+                if (response.ok) {
+                    log('Server is healthy', 'success');
+                    log(`   Status: ${data.status}`);
+                    log(`   Message: ${data.message}`);
+                } else {
+                    log('Server health check failed', 'error');
+                }
+            } catch (error) {
+                log(`Server health check error: ${error.message}`, 'error');
+            }
+        };
+
+        document.getElementById('listSubscriptions').onclick = async function() {
+            try {
+                log('👥 Fetching all push subscriptions...');
+                const response = await fetch('http://localhost:3001/api/push/subscriptions');
+                const data = await response.json();
+                
+                if (response.ok) {
+                    log(`Total Subscriptions: ${data.totalSubscriptions}`, 'success');
+                    
+                    if (data.subscriptions && data.subscriptions.length > 0) {
+                        // Track duplicate endpoints
+                        const endpointMap = new Map();
+                        
+                        data.subscriptions.forEach((sub, index) => {
+                            log(`   ${index + 1}. User: ${sub.userId}`);
+                            log(`      Subscribed: ${new Date(sub.subscribedAt).toLocaleString()}`);
+                            log(`      Last Notified: ${sub.lastNotified ? new Date(sub.lastNotified).toLocaleString() : 'Never'}`);
+                            
+                            // Check for duplicate endpoints (same browser)
+                            const endpointKey = sub.subscription?.endpoint?.substring(0, 50) || 'unknown';
+                            if (endpointMap.has(endpointKey)) {
+                                const duplicate = endpointMap.get(endpointKey);
+                                log(`      ⚠️ WARNING: Same browser as ${duplicate}!`, 'warning');
+                            } else {
+                                endpointMap.set(endpointKey, sub.userId);
+                            }
+                        });
+                        
+                        // Show duplicate summary
+                        const duplicates = [];
+                        for (const [endpoint, userId] of endpointMap.entries()) {
+                            const count = data.subscriptions.filter(sub => 
+                                sub.subscription?.endpoint?.substring(0, 50) === endpoint
+                            ).length;
+                            if (count > 1) {
+                                duplicates.push(`${count} users on same browser`);
+                            }
+                        }
+                        
+                        if (duplicates.length > 0) {
+                            log(`🔍 Duplicate Analysis: ${duplicates.join(', ')}`, 'warning');
+                            log('💡 TIP: Use different browsers/incognito tabs for different users', 'info');
+                        }
+                        
+                    } else {
+                        log('   No subscriptions found', 'warning');
+                    }
+                } else {
+                    log('Failed to fetch subscriptions', 'error');
+                }
+            } catch (error) {
+                log(`Subscription fetch error: ${error.message}`, 'error');
+            }
+        };
+
+        document.getElementById('checkDuplicates').onclick = async function() {
+            try {
+                log('🔍 Checking for duplicate browser subscriptions...');
+                
+                // Get raw subscription data
+                const response = await fetch('http://localhost:3001/api/push/subscriptions');
+                const data = await response.json();
+                
+                if (!response.ok || !data.subscriptions) {
+                    log('Failed to fetch subscription data', 'error');
+                    return;
+                }
+                
+                // Analyze endpoints for duplicates
+                const endpointGroups = {};
+                
+                data.subscriptions.forEach(sub => {
+                    const endpoint = sub.subscription?.endpoint || 'unknown';
+                    const shortEndpoint = endpoint.substring(endpoint.lastIndexOf('/') + 1, endpoint.lastIndexOf('/') + 20);
+                    
+                    if (!endpointGroups[shortEndpoint]) {
+                        endpointGroups[shortEndpoint] = [];
+                    }
+                    endpointGroups[shortEndpoint].push(sub.userId);
+                });
+                
+                let foundDuplicates = false;
+                for (const [endpoint, users] of Object.entries(endpointGroups)) {
+                    if (users.length > 1) {
+                        foundDuplicates = true;
+                        log(`🚨 DUPLICATE BROWSER: Users [${users.join(', ')}] using same browser`, 'warning');
+                        log(`   Endpoint: ...${endpoint}`, 'warning');
+                        log(`   This means notifications to these users go to the same browser!`, 'warning');
+                    }
+                }
+                
+                if (!foundDuplicates) {
+                    log('✅ No duplicate browser subscriptions found', 'success');
+                } else {
+                    log('💡 SOLUTION: Each user needs their own browser/incognito tab to receive notifications separately', 'info');
+                }
+                
+            } catch (error) {
+                log(`Duplicate check error: ${error.message}`, 'error');
+            }
+        };
+    </script>
+</body>
+</html>

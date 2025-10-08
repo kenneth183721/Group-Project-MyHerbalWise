@@ -1,0 +1,65 @@
+[
+    {
+        "bodyTypeID":"bt01",
+        "bodyTypeName":"平和體質",
+        "bodyTypeDescription":"通常身體健康，氣血平衡，五臟功能正常，精力充沛，抵抗力強，適應力好。這類型的人情緒穩定，能夠較好地應對生活中的壓力與挑戰。",
+        "EligibleFoodID":["food106", "food108", "food123", "food37", "food120"],
+        "IneligibleFoodID":[]
+    },
+    {
+        "bodyTypeID":"bt02",
+        "bodyTypeName":"氣虛體質",
+        "bodyTypeDescription":"常感到容易疲勞，精神狀態不佳，運動後會出現氣喘現象。他們通常食慾不振，面色萎黃，免疫力較低，容易感冒和生病。",
+        "EligibleFoodID":["food29", "food06", "food07", "food28", "food114", "food121"],
+        "IneligibleFoodID":["food65", "food80", "food81", "food58", "food59", "food91", "food92"]
+    },
+    {
+        "bodyTypeID":"bt03",
+        "bodyTypeName":"陽虛體質",
+        "bodyTypeDescription":"對寒冷敏感，常感到四肢冰冷，面色蒼白。這類型的人容易出現倦怠感，喜歡待在溫暖的環境中，並且消化功能較弱，容易出現腹瀉。",
+        "EligibleFoodID":["food05", "food06", "food24", "food18", "food46", "food47"],
+        "IneligibleFoodID":["food67", "food68", "food69", "food70", "food84", "food85", "food86", "food87", "food88", "food89", "food90", "food91", "food92", "food93", "food96", "food97", "food98", "food99", "food100"]
+    },
+    {
+        "bodyTypeID":"bt04",
+        "bodyTypeName":"陰虛體質",
+        "bodyTypeDescription":"常有口乾舌燥的情況，潮熱多汗，晚上失眠多夢。他們的情緒容易波動，面色偏紅，皮膚狀態較乾燥，通常需要多補充水分和滋潤食物。",
+        "EligibleFoodID":["food23", "food117", "food94", "food116", "food84", "food40"],
+        "IneligibleFoodID":["food01", "food02", "food03", "food46", "food47", "food48", "food49", "food50", "food51"]
+    },
+    {
+        "bodyTypeID":"bt05",
+        "bodyTypeName":"痰濕體質",
+        "bodyTypeDescription":"常感到身體沉重，四肢無力，容易感到困倦。這類型的人食慾不振，腸胃容易脹滿，舌苔厚膩，需注意飲食清淡，避免油膩食物。",
+        "EligibleFoodID":["food72", "food67", "food68", "food66", "food69"],
+        "IneligibleFoodID":["food65", "food17", "food20", "food22", "food28", "food31", "food34", "food58", "food59", "food91"]
+    },
+    {
+        "bodyTypeID":"bt06",
+        "bodyTypeName":"濕熱體質",
+        "bodyTypeDescription":"面部通常油膩，皮膚容易長痘痘，經常感到口苦口臭。他們的大便多為黏膩，經期不規則，情緒易怒，適合調理以清熱解濕。",
+        "EligibleFoodID":["food73", "food75", "food69", "food71", "food97", "food98"],
+        "IneligibleFoodID":["food01", "food02", "food03", "food05", "food06", "food07", "food16", "food17", "food20", "food46", "food47", "food48", "food50", "food51", "food65"]
+    },
+    {
+        "bodyTypeID":"bt07",
+        "bodyTypeName":"血瘀體質",
+        "bodyTypeDescription":"常有固定的疼痛感，循環不良，皮膚顏色暗沉，容易出現瘀血，傷口癒合緩慢。他們的情緒可能較為抑鬱，需注意促進血液循環。",
+        "EligibleFoodID":["food13", "food74", "food72", "food32", "food31", "food21"],
+        "IneligibleFoodID":["food01", "food02", "food03", "food46", "food47", "food48", "food49", "food50"]
+    },
+    {
+        "bodyTypeID":"bt08",
+        "bodyTypeName":"氣鬱體質",
+        "bodyTypeDescription":"情緒波動較大，容易感到焦慮，胸部感到悶脹。他們常有輕度抑鬱，食慾不振，消化不良，需適當調整心理狀態和生活方式。",
+        "EligibleFoodID":["food118", "food110", "food111", "food44", "food124"],
+        "IneligibleFoodID":["food65", "food80", "food81", "food58", "food59", "food91", "food92"]
+    },
+    {
+        "bodyTypeID":"bt09",
+        "bodyTypeName":"特稟體質",
+        "bodyTypeDescription":"對某些物質過敏，體質特殊，反應明顯。這類型的人需謹慎避免接觸過敏源，常伴隨過敏症狀，如皮膚癢疹或呼吸困難，需定期檢查和調理。",
+        "EligibleFoodID":["food07", "food06", "food76", "food123", "food37"],
+        "IneligibleFoodID":["food01", "food02", "food03", "food46", "food47", "food48", "food49", "food50", "food51", "food58", "food59", "food91", "food92", "food93"]
+    }
+]

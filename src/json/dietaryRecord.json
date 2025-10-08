@@ -1,0 +1,50 @@
+[
+  {
+    "recordID": "dr002",
+    "userID": "uid01",
+    "date": "2025-09-20",
+    "time": "12:15",
+    "foodItems": "白飯, 清蒸魚, 青菜, 湯",
+    "portions": "1碗, 1片, 1盤, 1碗",
+    "mealType": "午餐",
+    "notes": "清淡飲食",
+    "createdAt": "2025-09-20T12:15:00",
+    "updatedAt": "2025-09-20T12:15:00"
+  },
+  {
+    "recordID": "dr003",
+    "userID": "uid02",
+    "date": "2025-09-19",
+    "time": "19:00",
+    "foodItems": "糙米飯, 烤雞胸肉, 沙拉",
+    "portions": "1碗, 100g, 1盤",
+    "mealType": "晚餐",
+    "notes": "健康晚餐",
+    "createdAt": "2025-09-19T19:00:00",
+    "updatedAt": "2025-09-19T19:00:00"
+  },
+  {
+    "recordID": "dr1758376011837",
+    "userID": "uid01",
+    "date": "2025-09-20",
+    "time": "19:00",
+    "foodItems": "糙米飯, 雞胸肉, 花椰菜",
+    "portions": "1碗, 100g, 1盤",
+    "mealType": "晚餐",
+    "notes": "健康晚餐",
+    "createdAt": "2025-09-20T13:46:51.837Z",
+    "updatedAt": "2025-09-20T13:46:51.837Z"
+  },
+  {
+    "recordID": "dr1758378048372",
+    "userID": "uid01",
+    "date": "2025-09-20",
+    "time": "22:20",
+    "foodItems": "紅棗",
+    "portions": "1碗",
+    "mealType": "點心",
+    "notes": "",
+    "createdAt": "2025-09-20T14:20:48.372Z",
+    "updatedAt": "2025-09-20T14:20:48.372Z"
+  }
+]

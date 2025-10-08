@@ -1,0 +1,67 @@
+[
+  {
+    "userID": "uid01",
+    "savedFoodID": "food27",
+    "savedAt": "2025-09-19T08:38:11.508Z"
+  },
+  {
+    "userID": "uid01",
+    "savedFoodID": "food41",
+    "savedAt": "2025-09-19T08:38:17.543Z"
+  },
+  {
+    "userID": "uid01",
+    "savedFoodID": "food08",
+    "savedAt": "2025-09-19T10:38:01.480Z"
+  },
+  {
+    "userID": "uid01",
+    "savedFoodID": "food14",
+    "savedAt": "2025-09-19T10:38:22.437Z"
+  },
+  {
+    "userID": "uid01",
+    "savedFoodID": "food32",
+    "savedAt": "2025-09-19T10:38:25.846Z"
+  },
+  {
+    "userID": "uid01",
+    "savedFoodID": "food92",
+    "savedAt": "2025-09-19T10:38:41.518Z"
+  },
+  {
+    "userID": "uid01",
+    "savedFoodID": "food113",
+    "savedAt": "2025-09-19T14:24:07.054Z"
+  },
+  {
+    "userID": "uid01",
+    "savedFoodID": "food11",
+    "savedAt": "2025-09-20T14:25:40.659Z"
+  },
+  {
+    "userID": "uid01",
+    "savedFoodID": "food67",
+    "savedAt": "2025-09-20T14:26:56.658Z"
+  },
+  {
+    "userID": "uid02",
+    "savedFoodID": "food67",
+    "savedAt": "2025-09-20T16:43:32.576Z"
+  },
+  {
+    "userID": "uid02",
+    "savedFoodID": "food68",
+    "savedAt": "2025-09-20T16:43:34.507Z"
+  },
+  {
+    "userID": "uid02",
+    "savedFoodID": "food61",
+    "savedAt": "2025-09-20T16:43:47.922Z"
+  },
+  {
+    "userID": "uid02",
+    "savedFoodID": "food03",
+    "savedAt": "2025-09-22T02:35:47.260Z"
+  }
+]

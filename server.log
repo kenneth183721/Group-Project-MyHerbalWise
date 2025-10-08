@@ -1,0 +1,42 @@
+🔑 Push notifications configured with VAPID keys
+🚀 User Saved Foods API server is running on port 3001
+📋 Available endpoints:
+   GET    /api/health
+   POST   /api/auth/login
+   POST   /api/auth/signup
+   POST   /api/auth/generate-verification-code
+   POST   /api/auth/reset-password
+   POST   /api/auth/forgot-password
+   GET    /api/users/:userId
+   PUT    /api/users/:userId
+   GET    /api/user-saved-foods/:userId
+   GET    /api/user-saved-foods/:userId/ids
+   POST   /api/user-saved-foods
+   DELETE /api/user-saved-foods/:userId/:foodId
+   POST   /api/push/subscribe
+   POST   /api/push/unsubscribe
+   POST   /api/push/send
+   GET    /api/push/subscriptions
+📱 Push notifications enabled with VAPID keys
+   GET    /api/dietary-records/:userId
+   GET    /api/dietary-records/record/:recordId
+   POST   /api/dietary-records
+   PUT    /api/dietary-records/:recordId
+   DELETE /api/dietary-records/:recordId
+   GET    /api/healthStatusRecord/:userId
+   GET    /api/healthStatusRecord/record/:recordId
+   POST   /api/healthStatusRecord
+   PUT    /api/healthStatusRecord/:recordId
+   DELETE /api/healthStatusRecord/:recordId
+📱 Push subscription saved for user test-user
+❌ Error sending push notification: Error: The subscription p256dh value should be 65 bytes long.
+    at Object.encrypt (/Users/ttp/Desktop/team1/node_modules/web-push/src/encryption-helper.js:16:11)
+    at WebPushLib.generateRequestDetails (/Users/ttp/Desktop/team1/node_modules/web-push/src/web-push-lib.js:244:10)
+    at WebPushLib.sendNotification (/Users/ttp/Desktop/team1/node_modules/web-push/src/web-push-lib.js:341:29)
+    at /Users/ttp/Desktop/team1/server.js:1286:34
+    at Layer.handleRequest (/Users/ttp/Desktop/team1/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/ttp/Desktop/team1/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/ttp/Desktop/team1/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/ttp/Desktop/team1/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/ttp/Desktop/team1/node_modules/router/lib/layer.js:152:17)
+    at /Users/ttp/Desktop/team1/node_modules/router/index.js:295:15

@@ -1,0 +1,2702 @@
+[
+    {
+        "healthStatusID": "hs01",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "感冒",
+        "EligibleFoodID": [
+            "food01",
+            "food02",
+            "food04",
+            "food07",
+            "food28",
+            "food38",
+            "food79"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food48",
+            "food49",
+            "food50",
+            "food60"
+        ],
+        "healthStatusDescription": "感受觸冒風邪，邪犯卫表而導致的常見外感疾病，臨床以鼻塞、流涕、噴嚏、咳嗽、頭痛、惡寒、發熱、全身不适為特徵。"
+    },
+    {
+        "healthStatusID": "hs02",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "咳嗽",
+        "EligibleFoodID": [
+            "food38",
+            "food39",
+            "food79",
+            "food111",
+            "food112",
+            "food22",
+            "food84"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food48",
+            "food60",
+            "food58",
+            "food59"
+        ],
+        "healthStatusDescription": "咳嗽肺失宣降，肺氣上逆作聲，咯吐痰液，為肺系病病主要証候之一。有聲無痰為咳，有痰無聲為嗽。"
+    },
+    {
+        "healthStatusID": "hs03",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "肺痿",
+        "EligibleFoodID": [
+            "food111",
+            "food112",
+            "food22",
+            "food109",
+            "food110",
+            "food28",
+            "food79"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "肺叶痿弱不用，為肺脏的慢性虛損性疾患。臨床以咳吐浊唾涎沬為主症。"
+    },
+    {
+        "healthStatusID": "hs04",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "肺癰",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "肺叶生瘡，形成膿瘍的一種病証，属內痈之一。臨床以咳嗽、胸痛、發熱、咯吐腥臭浊痰，甚則膿血相兼為主要特征。"
+    },
+    {
+        "healthStatusID": "hs05",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "哮證",
+        "EligibleFoodID": [
+            "food38",
+            "food39",
+            "food79",
+            "food111",
+            "food18",
+            "food109",
+            "food41"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "一種發作性的痰鳴氣喘疾患。發時喉中有哮鳴聲，呼吸氣促困難，甚則喘息不能平臥。"
+    },
+    {
+        "healthStatusID": "hs06",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "喘證",
+        "EligibleFoodID": [
+            "food38",
+            "food39",
+            "food79",
+            "food111",
+            "food18",
+            "food109",
+            "food41"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "臨床表現以呼吸困難，喘息氣促，甚至張口抬肩，鼻翼煽動，不能平臥為特徵。"
+    },
+    {
+        "healthStatusID": "hs07",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "肺脹",
+        "EligibleFoodID": [
+            "food38",
+            "food39",
+            "food79",
+            "food111",
+            "food18",
+            "food109",
+            "food41"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "是多種慢性肺系疾患反复發作，迁延不愈，導致肺氣脹滿，不能斂降的一種病症。臨床表現為胸部膨滿，憋悶如塞，喘息上氣，痰多，煩躁，心慌等。其病情纏綿，時輕時重，日久則見面色晦暗，唇甲紫紺，脘腹脹滿，肢體浮腫，甚至喘脫等危重證候。"
+    },
+    {
+        "healthStatusID": "hs08",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "肺癆",
+        "EligibleFoodID": [
+            "food111",
+            "food112",
+            "food22",
+            "food109",
+            "food110",
+            "food28",
+            "food79"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "具有傳染性的慢性虛損疾患，以咳嗽、咳血、潮熱、盜汗及身體逐漸消瘦為主要臨床特征。"
+    },
+    {
+        "healthStatusID": "hs09",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "痰飲",
+        "EligibleFoodID": [
+            "food38",
+            "food79",
+            "food62",
+            "food89",
+            "food22",
+            "food28",
+            "food109"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "體內水液輸布、運化失常，停积於某些部位的一類的症証。"
+    },
+    {
+        "healthStatusID": "hs10",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "汗證",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "由於陰陽失調，腠理不固，而致汗液外洩失常的病証。不因外界環境影響，而白晝時時汗出，動輒益甚，為自汗；寐中汗出，醒來自止者為盜汗。汗出色黃如柏汁，染衣著色為黃汗。"
+    },
+    {
+        "healthStatusID": "hs11",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "血證",
+        "EligibleFoodID": [
+            "food89",
+            "food22",
+            "food27",
+            "food20",
+            "food30",
+            "food79",
+            "food38"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "凡血液不循常道，或上溢於口鼻諸窍，或下泄於前後二阴，或滲出於肌膚，所形成的疾患。"
+    },
+    {
+        "healthStatusID": "hs12",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "鬱證",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "由於情志不舒、氣機郁滯所致一類病証。主要表現為心情抑郁、情緒不宁、胸脇脹痛，或易怒喜哭，或咽中如異物梗阻、失眠等症。"
+    },
+    {
+        "healthStatusID": "hs13",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "消渴",
+        "EligibleFoodID": [
+            "food79",
+            "food38",
+            "food89",
+            "food62",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "以多飲、多食、多尿、消瘦，或尿濁、尿有甜味為主要臨床表現的一種疾病。"
+    },
+    {
+        "healthStatusID": "hs14",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "虛勞",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "又稱虛損，是多種原因所致，以臟腑虧損，氣血陰陽不足為主要病機的多種慢性衰弱證候的總稱。"
+    },
+    {
+        "healthStatusID": "hs15",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "心悸",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "包括驚悸和怔忡，指病人自自覺中悸動，驚惕不安，甚則不能自主的一種病證 。多呈陣發性，每因情志波動或劳累遇度而作。常與失眠、健忘 、 眩暈、耳鳴等症並見。"
+    },
+    {
+        "healthStatusID": "hs16",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "胸痹",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "胸部悶痛，甚則胸痛彻背，短氣、喘息不得卧為主症的一種疾病，輕者僅感胸悶如窒，呼吸欠暢，重者則有胸痛，嚴重者心痛彻背，背痛彻心。"
+    },
+    {
+        "healthStatusID": "hs17",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "不寐",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food110",
+            "food111"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "以經常不能獲得正常睡眠為特征的一類病証，主要表現為睡眠時間、深度的不足，輕者入睡困難，或寐而不酣，時寐時醒，或醒後不能再寐，重則徹夜不寐。"
+    },
+    {
+        "healthStatusID": "hs18",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "厥證",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "以突然昏倒，不省人事，四肢厥冷為主要臨床表現的病証。輕者昏厥時間較短，自會逐漸蘇醒，清醒後無失語、癱瘓等后遺症。嚴重的，則會一厥不醒而導致死亡。"
+    },
+    {
+        "healthStatusID": "hs19",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "癇證",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "一種發作性神志異常的疾病。臨床以發作性精神恍惚，甚則突然仆倒，昏不知人，口吐涏沬，兩目上視，四肢抽搐或口中怪叫，移時蘇醒。"
+    },
+    {
+        "healthStatusID": "hs20",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "胃痛",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "以上腹胃脘部近心窩處經常發生疼痛為主證。痛時可以牽連脇背，或兼見胸脘痞悶，惡心嘔吐，納差，嘈雜，噯氣，或吐酸，或吐清水，大便溏薄或秘結，甚至嘔血、便血等證。"
+    },
+    {
+        "healthStatusID": "hs21",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "噎隔",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "吞咽食物梗噎不順的疾患。噎即噎塞，指吞咽之時梗噎不順；膈為格拒，指飲食不下或食入即吐。"
+    },
+    {
+        "healthStatusID": "hs22",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "嘔吐",
+        "EligibleFoodID": [
+            "food01",
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "胃失和降，氣逆於上，迫使胃中之物從口中吐出的一種病証。"
+    },
+    {
+        "healthStatusID": "hs23",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "呃逆",
+        "EligibleFoodID": [
+            "food01",
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "以氣逆上沖，喉間呃呃連聲，聲短而頻，令人不能自制為主要表現的病證。"
+    },
+    {
+        "healthStatusID": "hs24",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "泄瀉",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "以排便次數增多，糞質稀薄或完谷不化，甚至瀉出如水樣為主症的病証。"
+    },
+    {
+        "healthStatusID": "hs25",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "痢疾",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "以腹痛，里急后重，下痢赤白膿血為主症。多發於夏秋季節。"
+    },
+    {
+        "healthStatusID": "hs26",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "腹痛",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "胃脘以下，耻骨毛際以上部位發生疼痛為主症的病証。"
+    },
+    {
+        "healthStatusID": "hs27",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "便秘",
+        "EligibleFoodID": [
+            "food39",
+            "food82",
+            "food89",
+            "food28",
+            "food101",
+            "food109",
+            "food27"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "大便秘結不通，排便時間/周期延長，或雖有便意，但大便艱澀不暢的病証。"
+    },
+    {
+        "healthStatusID": "hs28",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "頭痛",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "頭痛是以頭痛為主症的一類病証，可單獨出現，亦見於多種疾病的過程中。"
+    },
+    {
+        "healthStatusID": "hs29",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "眩暈",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "眩是指眼花或眼前發黑，暈是指頭暈甚至感覺自身或外界景物旋轉。輕者閉目即止；重者如坐車船，旋轉不定，不能站立，或伴有惡心、嘔吐、汗出，甚則昏倒。"
+    },
+    {
+        "healthStatusID": "hs30",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "中風",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "中風是以卒然昏仆，不省人事，半身不遂，口眼喎斜，語言不利，或不經昏仆而僅見喎僻不遂為主症的病証。"
+    },
+    {
+        "healthStatusID": "hs31",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "脅痛",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "一側或兩側脅肋部疼痛為主要表現的病證。"
+    },
+    {
+        "healthStatusID": "hs32",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "黃疸",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "以目黃、身黃、小便黃為主症，其中目睛黃染尤為本病的重要特征。"
+    },
+    {
+        "healthStatusID": "hs33",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "積聚",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "腹內結塊，或痛或脹的病証。積：有形，固定不移，痛有定處，病屬血分，乃為臟病；聚：無形，聚美無常，痛無定處，病屬氣分，乃為腑病。"
+    },
+    {
+        "healthStatusID": "hs34",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "鼓脹",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "腹部膨脹如鼓的一類病証，以腹脹大，皮色蒼黃，脉絡暴露為特征。"
+    },
+    {
+        "healthStatusID": "hs35",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "耳鳴耳聾",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "是聽覺異常的症狀。以病人自覺耳內鳴响，如聞潮聲，或細或暴，妨碍聽覺的稱耳鳴；聽力減弱，妨碍交談，甚至聽覺喪失，不聞外聲，影响日常生活的稱為耳聾。症狀輕者稱為重聽。"
+    },
+    {
+        "healthStatusID": "hs36",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "水腫",
+        "EligibleFoodID": [
+            "food62",
+            "food89",
+            "food61",
+            "food77",
+            "food78",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "體內水液瀦留，泛濫肌膚，引起眼瞼、頭面、四肢、腹背甚至全身浮腫，嚴重者還可伴有胸水、腹水等。"
+    },
+    {
+        "healthStatusID": "hs37",
+        "healthStatusCatID": "hscID05",
+        "healthStatusName": "淋證",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "小便頻數短澀，滴瀝刺痛，欲出未盡，小腹拘急，或痛引腰腹的病証。"
+    },
+    {
+        "healthStatusID": "hs38",
+        "healthStatusCatID": "hscID05",
+        "healthStatusName": "癃閉",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "小便量少，點滴而出，甚則小便閉塞不通為主症的一種病証。其中小便不暢，點滴而短少，病勢較緩者稱為癃；小便閉塞，點滴不通，病勢較急者為閉。"
+    },
+    {
+        "healthStatusID": "hs39",
+        "healthStatusCatID": "hscID05",
+        "healthStatusName": "遺精",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "不因性生活而精液遺泄的病証。其中因夢而遺精稱\"夢遺\"，無夢而遺精甚至清醒時精液流出的謂 \"滑精\"。"
+    },
+    {
+        "healthStatusID": "hs40",
+        "healthStatusCatID": "hscID06",
+        "healthStatusName": "腰痛",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "以腰部一側或兩側疼痛為主要癥狀的一種病證。"
+    },
+    {
+        "healthStatusID": "hs41",
+        "healthStatusCatID": "hscID06",
+        "healthStatusName": "痙證",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "以項背強直，四肢抽搐，甚至口噤、角弓反張為主要臨床表現的一種病證。"
+    },
+    {
+        "healthStatusID": "hs42",
+        "healthStatusCatID": "hscID06",
+        "healthStatusName": "痹證",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "痹証是由於風、寒、濕、熱等邪氣閉阻經絡，影響氣血運行，導致肢體、筋骨、關節、肌肉等處發生疼痛、重著、酸楚麻木，或關節屈伸不利，僵硬、腫大、變形等症狀的一種疾病。"
+    },
+    {
+        "healthStatusID": "hs43",
+        "healthStatusCatID": "hscID06",
+        "healthStatusName": "痿證",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "痿証是指肢體筋脈弛緩，軟弱無力，日久不能隨意運動而致肌肉萎縮的一種病証。"
+    },
+    {
+        "healthStatusID": "hs44",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "月經先期",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "月經周期縮短，經行提前7天以上，甚至10余日一行，連續兩個周期以上"
+    },
+    {
+        "healthStatusID": "hs45",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "月經過多",
+        "EligibleFoodID": [
+            "food89",
+            "food22",
+            "food27",
+            "food20",
+            "food30",
+            "food79",
+            "food38"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "月經量較正常明顯增多，而周期基本正常"
+    },
+    {
+        "healthStatusID": "hs46",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "經期延長",
+        "EligibleFoodID": [
+            "food89",
+            "food22",
+            "food27",
+            "food20",
+            "food30",
+            "food79",
+            "food38"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "月經周期基本正常，行經時間超過7天以上，甚至淋漓半月方淨"
+    },
+    {
+        "healthStatusID": "hs47",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "崩漏",
+        "EligibleFoodID": [
+            "food89",
+            "food22",
+            "food27",
+            "food20",
+            "food30",
+            "food79",
+            "food38"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "經血非時暴下不止或淋漓不盡，是月經周期、經期、經量嚴重紊亂的月經病。"
+    },
+    {
+        "healthStatusID": "hs48",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "經間期出血",
+        "EligibleFoodID": [
+            "food89",
+            "food22",
+            "food27",
+            "food20",
+            "food30",
+            "food79",
+            "food38"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "在兩次月經中間，出現周期性的少量陰道出血，持續2-3天。"
+    },
+    {
+        "healthStatusID": "hs49",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "月經先後不定期",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "月經周期時或提前時或延後7天以上，兩者常交替出現，連續發生3個周期或以上。"
+    },
+    {
+        "healthStatusID": "hs50",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "月經後期",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "月經周期延後7天以上，甚至3-5個月一行，連續2個周期或以上。"
+    },
+    {
+        "healthStatusID": "hs51",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "月經量少",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "月經周期正常，月經量明顯減少，或經行時問不足2天，甚或點滴即淨。"
+    },
+    {
+        "healthStatusID": "hs52",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "閉經",
+        "EligibleFoodID": [
+            "food01",
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "女子超過18歲，月經尚未來潮，或月經已經建立後又停止3個月或3個周期以上。"
+    },
+    {
+        "healthStatusID": "hs53",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "痛經",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "婦女正值經期或行經前後，出現周期性小腹疼痛或痛引腰骶，甚則劇痛昏厥。"
+    },
+    {
+        "healthStatusID": "hs54",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "經行乳房脹痛",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "經期前後或行經時，出現乳房作脹疼痛，或乳頭脹癢疼痛，甚則不能觸衣。"
+    },
+    {
+        "healthStatusID": "hs55",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "經行頭痛",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "每逢經期或行經前後，出現以頭痛為主證。"
+    },
+    {
+        "healthStatusID": "hs56",
+        "healthStatusCatID": "hscID06",
+        "healthStatusName": "經行身痛",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "每逢經期或行經前後，出現以身體疼痛為主證。"
+    },
+    {
+        "healthStatusID": "hs57",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "經行泄瀉",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "每逢經期或行經前後，大便溏薄，甚或清稀如水，日解數次。"
+    },
+    {
+        "healthStatusID": "hs58",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "經行風疹塊",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "每逢臨經時或行經期間，周身皮膚突起紅疹，或起風團，瘙癢異常，經淨漸退。"
+    },
+    {
+        "healthStatusID": "hs59",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "絕經前後諸證",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "婦女在絕經期前後，伴隨月經紊亂或絕經出現如烘熱汗出、煩躁易怒、潮熱面紅、眩暈耳鳴、心悸失眠、腰背酸楚、面浮肢腫、皮膚蟻行樣感、情志不寧等症狀。"
+    },
+    {
+        "healthStatusID": "hs60",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "帶下病-帶下過多",
+        "EligibleFoodID": [
+            "food01",
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "帶下量明顯增多，色、質、臭氣異常，或伴全身局部症狀。"
+    },
+    {
+        "healthStatusID": "hs61",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "妊娠惡阻",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "妊娠早期出現嚴重的惡心嘔吐，頭暈厭食，甚則食入即吐。"
+    },
+    {
+        "healthStatusID": "hs62",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "妊娠腹痛",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "妊娠期間，因胞脈阻滯或失養，氣血運行不暢而出現小腹疼痛。"
+    },
+    {
+        "healthStatusID": "hs63",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "胎漏、胎動不安",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "胎漏指妊娠期間少量陰道流血，時作時止，或淋漓不盡，而無腰酸腹痛或小腹墜脹。胎動不安指妊娠期間僅有腰酸、腹痛或下腹墜脹，或伴有少量陰道流血。"
+    },
+    {
+        "healthStatusID": "hs64",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "滑胎",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "墮胎、小產發生3次或以上"
+    },
+    {
+        "healthStatusID": "hs65",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "子腫",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "妊娠後，肢體面目腫脹"
+    },
+    {
+        "healthStatusID": "hs66",
+        "healthStatusCatID": "hscID05",
+        "healthStatusName": "妊娠小便不通",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "妊娠期間，小便不通，甚至小腹脹急疼痛，心煩不得臥。"
+    },
+    {
+        "healthStatusID": "hs67",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "產後血暈",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "產婦分娩後，突然頭暈眼花，不能坐起，或心胸滿悶，惡心嘔吐，痰涌氣急，心煩不安，甚則口噤神昏，不省人事。"
+    },
+    {
+        "healthStatusID": "hs68",
+        "healthStatusCatID": "hscID06",
+        "healthStatusName": "產後痙證",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "產後發生四肢抽搐、項背強直，甚至口噤、角弓反張。"
+    },
+    {
+        "healthStatusID": "hs69",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "產後腹痛",
+        "EligibleFoodID": [
+            "food89",
+            "food22",
+            "food27",
+            "food20",
+            "food30",
+            "food79",
+            "food38"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "產婦在產褥期內，發生與分娩或產褥有關的小腹疼痛。"
+    },
+    {
+        "healthStatusID": "hs70",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "產後惡露不絕",
+        "EligibleFoodID": [
+            "food39",
+            "food82",
+            "food89",
+            "food28",
+            "food101",
+            "food109",
+            "food27"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "產後惡露持續20天以上仍淋漓不盡。"
+    },
+    {
+        "healthStatusID": "hs71",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "產後大便難",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "產後大便艱澀，或數日不解，或排便時乾燥疼痛，難以解出。"
+    },
+    {
+        "healthStatusID": "hs72",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "產後發熱",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "產褥期內，出現發熱持續不退，或突然高熱寒戰，并伴有其他症狀。"
+    },
+    {
+        "healthStatusID": "hs73",
+        "healthStatusCatID": "hscID05",
+        "healthStatusName": "產後排尿異常",
+        "EligibleFoodID": [
+            "food01",
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "新產後小便不通，或尿意頻數，甚至小便失禁。"
+    },
+    {
+        "healthStatusID": "hs74",
+        "healthStatusCatID": "hscID06",
+        "healthStatusName": "產後身痛",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "婦女在產褥期內，肢體/關節出現酸痛、麻木、重著。"
+    },
+    {
+        "healthStatusID": "hs75",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "缺乳",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "產後哺乳期內，產婦乳汁甚少或全無。"
+    },
+    {
+        "healthStatusID": "hs76",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "癥瘕",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "婦女下腹部胞中有結塊，伴有或痛，或脹，或滿，甚或出血，或帶下增多、月經不調、痛經、不孕、尿頻尿急。"
+    },
+    {
+        "healthStatusID": "hs77",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "臟躁",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "婦人精神憂鬱，情志煩亂，呵欠頻作，甚至哭笑無常，不能自控。"
+    },
+    {
+        "healthStatusID": "hs78",
+        "healthStatusCatID": "hscID07",
+        "healthStatusName": "不孕症",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "育齡期婦女與配偶有正常性生活，配偶生殖功能正常，未避孕而2年以上不孕，或曾生育/流產後，無避孕而又2年以上不再受孕。"
+    },
+    {
+        "healthStatusID": "hs79",
+        "healthStatusCatID": "hscID05",
+        "healthStatusName": "陰癢",
+        "EligibleFoodID": [
+            "food01",
+            "food02",
+            "food04",
+            "food07",
+            "food28",
+            "food38",
+            "food79"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "婦女外陰及陰道瘙癢，甚或癢痛難忍，或伴帶下增多，甚至波及後陰，大腿內側。"
+    },
+    {
+        "healthStatusID": "hs80",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "感冒(兒科)",
+        "EligibleFoodID": [
+            "food38",
+            "food39",
+            "food79",
+            "food111",
+            "food112",
+            "food22",
+            "food84"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "感受風邪引起的外感疾病，表現為發熱惡寒、頭痛、鼻塞流涕、打噴嚏、咳嗽。"
+    },
+    {
+        "healthStatusID": "hs81",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "咳嗽(兒科)",
+        "EligibleFoodID": [
+            "food38",
+            "food39",
+            "food79",
+            "food111",
+            "food18",
+            "food109",
+            "food41"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "小兒常見的一種肺系病証， 有聲無痰為咳，有痰無聲為嗽，有聲有痰謂之咳嗽"
+    },
+    {
+        "healthStatusID": "hs82",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "肺炎喘嗽",
+        "EligibleFoodID": [
+            "food38",
+            "food39",
+            "food79",
+            "food111",
+            "food18",
+            "food109",
+            "food41"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "小兒時期常見的肺系疾病之一，臨床主症為發熱、咳嗽、痰鳴、氣急鼻煽，甚至涕淚閉塞, 張口抬肩, 搖身擷肚。"
+    },
+    {
+        "healthStatusID": "hs83",
+        "healthStatusCatID": "hscID02",
+        "healthStatusName": "哮喘",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food48",
+            "food49",
+            "food50",
+            "food60"
+        ],
+        "healthStatusDescription": "小兒時期常見的肺系疾病，反復發作，臨床特徵為哮鳴氣促，呼氣延長。哮指聲響言，喘指氣息言。"
+    },
+    {
+        "healthStatusID": "hs84",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "鵝口瘡",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food48",
+            "food60",
+            "food58",
+            "food59"
+        ],
+        "healthStatusDescription": "口腔、舌上滿布白屑，狀如鵝口。因其色白如雪片，又名「雪口」。"
+    },
+    {
+        "healthStatusID": "hs85",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "口瘡",
+        "EligibleFoodID": [
+            "food01",
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "以口頰、舌邊、上齶、齒齦等處出現黃白色潰瘍，疼痛，或伴發熱、流涎為特征"
+    },
+    {
+        "healthStatusID": "hs86",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "嘔吐(兒科)",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "因胃失和降，氣逆於上，以致乳食由胃中從口而出的一種症証。有聲有物謂之嘔，有物無聲謂之吐，有聲無物謂之噦。"
+    },
+    {
+        "healthStatusID": "hs87",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "泄瀉(兒科)",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "是以大便次數增多，糞便稀薄或如水樣為主要特征的病証。"
+    },
+    {
+        "healthStatusID": "hs88",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "腹痛(兒科)",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "胃脘以下，臍兩旁，恥骨以上的部位發生疼痛，包括大腹痛、臍腹痛、小腹痛、少腹痛。"
+    },
+    {
+        "healthStatusID": "hs89",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "厭食",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "小兒較長時期食欲不振、食量減少，甚則拒食。"
+    },
+    {
+        "healthStatusID": "hs90",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "積滯",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "小兒內傷乳食，停聚中焦，積而不化，氣滯不行。表現為不思乳食，食而不化，脘腹脹滿，噯氣酸腐，大便不調。"
+    },
+    {
+        "healthStatusID": "hs91",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "疳證",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "由於喂養不當或多種疾病影響，導致脾胃受損，氣液耗傷，而出現形體消瘦，面色無華，毛發乾枯，精神萎靡或煩躁不安，飲食異常，大便不調。"
+    },
+    {
+        "healthStatusID": "hs92",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "急驚風",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "小兒時期常見，一種以抽搐伴神昏為特徵的證候。起病急暴，屬陽屬實，痰、熱、驚、風四證具備，以高熱、抽風、神昏為主要表現。"
+    },
+    {
+        "healthStatusID": "hs93",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "慢驚風",
+        "EligibleFoodID": [
+            "food62",
+            "food89",
+            "food61",
+            "food77",
+            "food78",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "小兒時期常見，一種以抽搐伴神昏為特徵的證候。久病中虛，屬陰屬虛。來勢緩慢，抽搐無力，時作時止，反覆難愈，常伴昏迷、癱瘓等症。"
+    },
+    {
+        "healthStatusID": "hs94",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "小兒水腫",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "以肌膚浮腫、小便短少為主證的疾病。"
+    },
+    {
+        "healthStatusID": "hs95",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "麻疹",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "感受麻毒時邪而引起的呼吸道傳染病。表現為發熱、咳嗽、鼻塞流涕、淚水汪汪、滿身布發紅疹。"
+    },
+    {
+        "healthStatusID": "hs96",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "風痧",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "感受風痧時邪而引起的急性出疹性傳染病。表現為發熱、咳嗽、流涕，全身出現淡紅、細小斑丘疹，耳部、頸後、枕部臖核腫大伴觸痛。"
+    },
+    {
+        "healthStatusID": "hs97",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "丹痧",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "屬急性呼吸道傳染病，表現為發熱、咽喉腫痛，伴腐爛，全身彌漫性猩紅色皮疹。"
+    },
+    {
+        "healthStatusID": "hs98",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "水痘",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "由感受水痘時行邪毒而引起的急性傳染病。表現為發熱、皮膚分批出現丘疹、皰疹、結痂，形態如豆，色澤明淨。"
+    },
+    {
+        "healthStatusID": "hs99",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "痄腮",
+        "EligibleFoodID": [
+            "food38",
+            "food39",
+            "food79",
+            "food111",
+            "food18",
+            "food109",
+            "food41"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "感受風溫邪毒引起的急性傳染病。表現為發熱、耳下腮部漫腫疼痛。"
+    },
+    {
+        "healthStatusID": "hs100",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "頓咳",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "屬呼吸道傳染病，表現為陣發性、痙攣性咳嗽，咳後有較長的雞鳴樣吸氣性吼叫聲，最後傾吐泡沫而出。"
+    },
+    {
+        "healthStatusID": "hs101",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "小兒暑溫",
+        "EligibleFoodID": [
+            "food28",
+            "food101",
+            "food109",
+            "food27",
+            "food39",
+            "food22",
+            "food112"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "感受暑溫邪毒引起的熱性病證，表現為高熱、神昏、抽風。"
+    },
+    {
+        "healthStatusID": "hs102",
+        "healthStatusCatID": "hscID03",
+        "healthStatusName": "疫毒痢",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "發生於夏秋季節，發病突然，發熱、抽風、昏迷，并可迅速出現「內閉外脫」的危象。"
+    },
+    {
+        "healthStatusID": "hs103",
+        "healthStatusCatID": "hscID04",
+        "healthStatusName": "夏季熱",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "嬰幼兒在暑天發生的特有季節性疾病，表現為長期發熱、口渴多飲、多尿、汗閉或少汗。"
+    },
+    {
+        "healthStatusID": "hs104",
+        "healthStatusCatID": "hscID05",
+        "healthStatusName": "尿頻",
+        "EligibleFoodID": [
+            "food27",
+            "food20",
+            "food30",
+            "food41",
+            "food109",
+            "food28",
+            "food101"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "以尿頻、尿急為特徵的疾病。"
+    },
+    {
+        "healthStatusID": "hs105",
+        "healthStatusCatID": "hscID05",
+        "healthStatusName": "遺尿",
+        "EligibleFoodID": [
+            "food89",
+            "food22",
+            "food27",
+            "food20",
+            "food30",
+            "food79",
+            "food38"
+        ],
+        "IneligibleFoodID": [
+            "food61",
+            "food62",
+            "food81",
+            "food75",
+            "food74",
+            "food83",
+            "food91"
+        ],
+        "healthStatusDescription": "3歲以上的小兒睡中小便自遺，醒後方覺"
+    },
+    {
+        "healthStatusID": "hs106",
+        "healthStatusCatID": "hscID08",
+        "healthStatusName": "紫癜",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "小兒常見的出血性疾病，血液溢於皮膚、粘膜之下，出現瘀點、瘀斑，壓之不褪色。"
+    },
+    {
+        "healthStatusID": "hs107",
+        "healthStatusCatID": "hscID08",
+        "healthStatusName": "胎黃",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "嬰兒出生後全身皮膚、鞏膜發黃色，分為病理性和生理性。"
+    },
+    {
+        "healthStatusID": "hs108",
+        "healthStatusCatID": "hscID08",
+        "healthStatusName": "臍部疾患",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "嬰兒出生後，由於斷臍結扎不善或臍部護理不當，為不潔之物所污染，因而發生各種臍部病證。"
+    },
+    {
+        "healthStatusID": "hs109",
+        "healthStatusCatID": "hscID08",
+        "healthStatusName": "臍濕",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "臍部為水濕所侵，臍中濕潤不乾。"
+    },
+    {
+        "healthStatusID": "hs110",
+        "healthStatusCatID": "hscID08",
+        "healthStatusName": "臍瘡",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "臍部為邪毒感染，紅腫熱痛或有膿水溢出。"
+    },
+    {
+        "healthStatusID": "hs111",
+        "healthStatusCatID": "hscID08",
+        "healthStatusName": "臍血",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "斷臍結扎不善或胎毒內盛，血從臍中溢出。"
+    },
+    {
+        "healthStatusID": "hs112",
+        "healthStatusCatID": "hscID08",
+        "healthStatusName": "臍突",
+        "EligibleFoodID": [
+            "food61",
+            "food62",
+            "food79",
+            "food94",
+            "food98",
+            "food64",
+            "food96"
+        ],
+        "IneligibleFoodID": [
+            "food45",
+            "food46",
+            "food47",
+            "food60",
+            "food58",
+            "food59",
+            "food50"
+        ],
+        "healthStatusDescription": "先天發育缺陷，小腸脂膜突入臍中，臍部突起，呈半球狀或囊狀突出，虛大光浮，大小不一，以手按之，腫塊可回納腹中。"
+    },
+    {
+        "healthStatusID": "hs113",
+        "healthStatusCatID": "hscID01",
+        "healthStatusName": "臉癱",
+        "EligibleFoodID": [
+
+        ],
+        "IneligibleFoodID": [
+
+        ],
+        "healthStatusDescription": "面部一側肌肉突然癱瘓，表情不對稱，口角歪斜，眼皮不能閉合，流淚、流涎，味覺減退或喪失。"
+    }
+]

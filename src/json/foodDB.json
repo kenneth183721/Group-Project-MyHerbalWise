@@ -1,0 +1,1192 @@
+[
+  {
+    "foodID": "food01",
+    "foodName": "生薑",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "辛溫之品,味辛,性溫",
+    "foodEffect": "溫暖腸胃，散寒發汗，止嘔化痰，溫肺止咳",
+    "foodProhibition": "體質燥熱，內火旺盛者不宜，孕婦需謹慎使用",
+    "foodCatImg": "food01.png"
+  },
+  {
+    "foodID": "food02",
+    "foodName": "大蒜",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "辛溫走竄,氣味濃烈",
+    "foodEffect": "殺菌解毒，溫胃健脾，消化積食，預防感冒",
+    "foodProhibition": "體質燥熱，眼疾，口舌生瘡者不宜食用",
+    "foodCatImg": "food02.png"
+  },
+  {
+    "foodID": "food03",
+    "foodName": "韭菜",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "辛溫,補陽,味辛,性溫",
+    "foodEffect": "溫腎壯陽，健脾益胃，理氣活血，潤腸通便",
+    "foodProhibition": "體質燥熱，皮膚發炎，眼疾患者不宜食用",
+    "foodCatImg": "food03.png"
+  },
+  {
+    "foodID": "food04",
+    "foodName": "洋蔥",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "辛溫,理氣,味辛,甘溫",
+    "foodEffect": "理氣和胃，化濕祛痰，殺菌消炎，降血脂",
+    "foodProhibition": "皮膚過敏，眼疾患者應少量食用",
+    "foodCatImg": "food04.png"
+  },
+  {
+    "foodID": "food05",
+    "foodName": "羊肉",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,補虛,性溫,味甘",
+    "foodEffect": "溫中補虛，補腎壯陽，益氣補血，溫暖脾胃",
+    "foodProhibition": "發燒，牙痛，口舌生瘡，咳黃痰者不宜",
+    "foodCatImg": "food05.png"
+  },
+  {
+    "foodID": "food06",
+    "foodName": "牛肉",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,補益,性溫,味甘",
+    "foodEffect": "補脾益胃，益氣補血，強筋健骨，消除水腫",
+    "foodProhibition": "感染疾病，肝病，腎病患者需謹慎食用",
+    "foodCatImg": "food06.png"
+  },
+  {
+    "foodID": "food07",
+    "foodName": "雞肉",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,補虛,性溫,味甘",
+    "foodEffect": "溫中益氣，補虛填精，健脾養胃，活血通脈",
+    "foodProhibition": "感冒發燒，體內火氣大，痰濕重者不宜",
+    "foodCatImg": "food07.png"
+  },
+  {
+    "foodID": "food08",
+    "foodName": "蝦",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,補腎,性溫,味甘",
+    "foodEffect": "甘溫補腎，性溫味甘，增強體力，滋養身體",
+    "foodProhibition": "過敏體質，皮膚病患者不宜食用",
+    "foodCatImg": "food08.png"
+  },
+  {
+    "foodID": "food09",
+    "foodName": "帶魚",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,補虛,性溫,味甘",
+    "foodEffect": "補虛益氣，暖胃健脾，滋潤肌膚，養髮美容",
+    "foodProhibition": "皮膚病，哮喘患者不宜食用",
+    "foodCatImg": "food09.png"
+  },
+  {
+    "foodID": "food10",
+    "foodName": "鯽魚",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,健脾,性溫,味甘",
+    "foodEffect": "甘溫健脾，性溫味甘，滋養身體，增強體質",
+    "foodProhibition": "感冒發燒期間，不宜大量食用",
+    "foodCatImg": "food10.png"
+  },
+  {
+    "foodID": "food11",
+    "foodName": "無花果",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,潤腸,性平,味甘",
+    "foodEffect": "潤腸通便，清熱解毒，止咳祛痰，抗癌防癌",
+    "foodProhibition": "腸胃虛寒，容易腹瀉者不宜食用",
+    "foodCatImg": "food11.png"
+  },
+  {
+    "foodID": "food12",
+    "foodName": "春筍",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st03, st04, st05",
+    "foodDescription": "甘寒,潤腸,性寒,味甘",
+    "foodEffect": "促進腸胃蠕動，幫助排毒，清潔腸道，健康養生",
+    "foodProhibition": "性質寒涼，腸胃虛寒者需謹慎，腎結石患者忌食",
+    "foodCatImg": "food12.png"
+  },
+  {
+    "foodID": "food13",
+    "foodName": "菠菜",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st02, st04, st06",
+    "foodDescription": "甘涼,補血,性涼,味甘",
+    "foodEffect": "清熱解毒，促進腸道健康，補血養氣，增強免疫",
+    "foodProhibition": "含草酸高，腎結石患者忌食，影響鈣質吸收",
+    "foodCatImg": "food13.png"
+  },
+  {
+    "foodID": "food14",
+    "foodName": "花菜",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st23, st24, st01",
+    "foodDescription": "甘平,補虛,性平,味甘",
+    "foodEffect": "富含維生素C，抗氧化，增強免疫力，保護細胞",
+    "foodProhibition": "容易脹氣，腸胃弱者謹慎，甲狀腺低下者少食",
+    "foodCatImg": "food14.png"
+  },
+  {
+    "foodID": "food15",
+    "foodName": "青菜餅",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st01, st02, st05",
+    "foodDescription": "甘平,補益,性平,味甘",
+    "foodEffect": "高纖維食品，有助消化，促進腸胃健康，營養豐富",
+    "foodProhibition": "油脂含量高，高血脂患者謹慎，減肥者少吃",
+    "foodCatImg": "food15.png"
+  },
+  {
+    "foodID": "food16",
+    "foodName": "小龍蝦",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st08, st09, st10",
+    "foodDescription": "甘鹹溫,補腎,性溫,味甘鹹",
+    "foodEffect": "富含蛋白質，增強免疫力，補充營養，強身健體",
+    "foodProhibition": "膽固醇高，心血管疾病患者謹慎，腎病者少吃",
+    "foodCatImg": "food16.png"
+  },
+  {
+    "foodID": "food17",
+    "foodName": "粽子",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st09, st10",
+    "foodDescription": "甘溫,補虛,性溫,味甘",
+    "foodEffect": "提供能量，補充糖分，傳統美食，節慶佳品",
+    "foodProhibition": "糯米難消化，腸胃弱者謹慎，糖尿病者控制份量",
+    "foodCatImg": "food17.png"
+  },
+  {
+    "foodID": "food18",
+    "foodName": "核桃",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,補腎,性溫,味甘",
+    "foodEffect": "補腎固精，溫肺定喘，潤腸通便，補血養血",
+    "foodProhibition": "痰多咳嗽，體質燥熱，腹瀉者不宜食用",
+    "foodCatImg": "food18.png"
+  },
+  {
+    "foodID": "food19",
+    "foodName": "糯米粽",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st09, st10",
+    "foodDescription": "甘溫,健脾補虛,性溫,味甘",
+    "foodEffect": "提供能量，補充糖分，傳統美食，節慶佳品",
+    "foodProhibition": "糯米難消化，腸胃弱者謹慎，老人小孩少食",
+    "foodCatImg": "food19.png"
+  },
+  {
+    "foodID": "food20",
+    "foodName": "桂圓",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st24, st01, st02",
+    "foodDescription": "甘溫,補血健脾,性溫,味甘",
+    "foodEffect": "補氣養血，安神定志，滋養心脾，改善睡眠",
+    "foodProhibition": "性質溫熱，體質燥熱者謹慎，糖尿病患者忌食",
+    "foodCatImg": "food20.png"
+  },
+  {
+    "foodID": "food21",
+    "foodName": "桂花糕",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st15, st16, st17",
+    "foodDescription": "甘平,健脾,性平,味甘",
+    "foodEffect": "抗氧化，滋陰養顏，香甜可口，美容養生",
+    "foodProhibition": "含糖量高，糖尿病患者謹慎，減肥者控制份量",
+    "foodCatImg": "food21.png"
+  },
+  {
+    "foodID": "food22",
+    "foodName": "白木耳",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st16, st17, st18",
+    "foodDescription": "甘平,補虛,性平,味甘",
+    "foodEffect": "滋陰潤燥，養顏美容，潤肺止咳，延緩衰老",
+    "foodProhibition": "性質偏涼，腸胃虛寒者謹慎，腹瀉者暫時避免",
+    "foodCatImg": "food22.png"
+  },
+  {
+    "foodID": "food23",
+    "foodName": "栗子",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,補腎,性溫,味甘",
+    "foodEffect": "養胃健脾，補腎強筋，活血止血，營養豐富",
+    "foodProhibition": "腸胃虛弱，消化不良者應少量食用",
+    "foodCatImg": "food23.png"
+  },
+  {
+    "foodID": "food24",
+    "foodName": "海參",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st23, st24, st01",
+    "foodDescription": "甘鹹,補腎養血,性溫,味甘鹹",
+    "foodEffect": "富含蛋白質，補充營養，滋陰壯陽，增強體質",
+    "foodProhibition": "性質溫補，體質燥熱者謹慎，腎病者控制份量",
+    "foodCatImg": "food24.png"
+  },
+  {
+    "foodID": "food25",
+    "foodName": "蠔",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st21, st22, st23",
+    "foodDescription": "甘鹹,補腎養血,性平,味甘鹹",
+    "foodEffect": "富含鋅質，增強免疫力，滋陰補腎，強身健體",
+    "foodProhibition": "性質寒涼，腸胃虛寒者謹慎，心血管病者控制",
+    "foodCatImg": "food25.png"
+  },
+  {
+    "foodID": "food26",
+    "foodName": "豬肝",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st04, st05, st06",
+    "foodDescription": "甘苦,養血,性溫,味甘苦",
+    "foodEffect": "補血養氣，增強體力，明目養肝，營養豐富",
+    "foodProhibition": "膽固醇極高，心血管疾病患者忌食，孕婦謹慎",
+    "foodCatImg": "food26.png"
+  },
+  {
+    "foodID": "food27",
+    "foodName": "紅棗",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,補脾,性溫,味甘",
+    "foodEffect": "補中益氣，養血安神，緩和藥性，滋養身體",
+    "foodProhibition": "濕氣重，腹脹，食積，蛀牙，咳嗽者不宜",
+    "foodCatImg": "food27.png"
+  },
+  {
+    "foodID": "food28",
+    "foodName": "小米粥",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st20, st21, st22",
+    "foodDescription": "甘平,健脾補虛,性平,味甘鹹",
+    "foodEffect": "養胃安神，促進消化，溫和滋補，適合調養",
+    "foodProhibition": "性質溫和適宜，胃酸多者謹慎，糖尿病控制份量",
+    "foodCatImg": "food28.png"
+  },
+  {
+    "foodID": "food29",
+    "foodName": "蕎麥",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st15, st16, st17",
+    "foodDescription": "甘涼,健脾,性溫,味甘苦",
+    "foodEffect": "清熱解毒，增強心臟健康，降血脂，營養豐富",
+    "foodProhibition": "性質偏涼，腸胃虛寒者謹慎，過敏體質注意",
+    "foodCatImg": "food29.png"
+  },
+  {
+    "foodID": "food30",
+    "foodName": "龍眼",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,補心,性溫,味甘",
+    "foodEffect": "補心益脾，益氣補血，健脾養胃，滋養肌肉",
+    "foodProhibition": "體內痰火，濕氣停滯者不宜食用",
+    "foodCatImg": "food30.png"
+  },
+  {
+    "foodID": "food31",
+    "foodName": "橙子",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st18, st19, st20",
+    "foodDescription": "甘酸性涼，生津止渴，味甘酸，性涼",
+    "foodEffect": "富含維生素C，增強免疫力，生津止渴，抗氧化",
+    "foodProhibition": "性質偏涼，腸胃虛寒者謹慎，胃潰瘍者空腹忌食",
+    "foodCatImg": "food31.png"
+  },
+  {
+    "foodID": "food32",
+    "foodName": "紅薯",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st17, st18, st19",
+    "foodDescription": "甘平補脾，潤腸通便，味甘，性平",
+    "foodEffect": "促進消化，增強免疫力，提供能量，營養豐富",
+    "foodProhibition": "含糖量高，糖尿病控制，腸胃弱者謹慎脹氣",
+    "foodCatImg": "food32.png"
+  },
+  {
+    "foodID": "food33",
+    "foodName": "荔枝",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,補脾,性溫,味甘酸",
+    "foodEffect": "生津益血，健脾止瀉，溫中理氣，降逆止嘔",
+    "foodProhibition": "體質燥熱，濕氣阻滯，腹脹者不宜食用",
+    "foodCatImg": "food33.png"
+  },
+  {
+    "foodID": "food34",
+    "foodName": "春鯽魚湯",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st03, st04, st05",
+    "foodDescription": "甘溫健脾，補虛益氣，性溫，味甘",
+    "foodEffect": "滋陰養血，益氣養脾，溫補身體，營養豐富",
+    "foodProhibition": "魚湯油膩，膽囊炎謹慎，痛風者少喝湯",
+    "foodCatImg": "food34.png"
+  },
+  {
+    "foodID": "food35",
+    "foodName": "清明粿",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st05, st06, st07",
+    "foodDescription": "甘溫和胃，艾香清熱，性溫，味甘",
+    "foodEffect": "幫助消化，養胃安神，傳統美食，節慶佳品",
+    "foodProhibition": "糯米難消化，腸胃弱謹慎，孕婦注意艾草成分",
+    "foodCatImg": "food35.png"
+  },
+  {
+    "foodID": "food36",
+    "foodName": "番茄",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st08, st09, st10",
+    "foodDescription": "甘酸微寒，生津清熱，味甘酸，性微寒",
+    "foodEffect": "抗氧化，保護皮膚，清熱生津，營養豐富",
+    "foodProhibition": "性質微寒，腸胃虛寒者謹慎，腎結石適量食用",
+    "foodCatImg": "food36.png"
+  },
+  {
+    "foodID": "food37",
+    "foodName": "桃子",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,潤燥,性溫,味甘酸",
+    "foodEffect": "補益氣血，養陰生津，潤燥活血，美容養顏",
+    "foodProhibition": "內熱旺盛，容易生瘡，糖尿病患者不宜食用",
+    "foodCatImg": "food37.png"
+  },
+  {
+    "foodID": "food38",
+    "foodName": "秋梨",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st15, st16, st17",
+    "foodDescription": "甘酸性涼，潤肺止咳，味甘酸，性涼",
+    "foodEffect": "滋陰潤燥，降火清熱，潤肺止咳，生津止渴",
+    "foodProhibition": "性質偏涼，腸胃虛寒者謹慎，糖尿病控制份量",
+    "foodCatImg": "food38.png"
+  },
+  {
+    "foodID": "food39",
+    "foodName": "蜂蜜",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st06, st11, st15",
+    "foodDescription": "甘平潤燥，補中益氣，味甘，性平",
+    "foodEffect": "潤燥通便，增強免疫力，滋養身體，天然甜味",
+    "foodProhibition": "嬰兒一歲前禁食，糖尿病控制，腹瀉時避免",
+    "foodCatImg": "food39.png"
+  },
+  {
+    "foodID": "food40",
+    "foodName": "杏",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,潤肺,性溫,味甘酸",
+    "foodEffect": "潤肺定喘，生津止渴，潤腸通便，營養豐富",
+    "foodProhibition": "實熱體質，嬰幼兒不宜食用",
+    "foodCatImg": "food40.png"
+  },
+  {
+    "foodID": "food41",
+    "foodName": "枸杞",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st20, st21, st22",
+    "foodDescription": "甘溫滋補，明目養肝，味甘，性溫",
+    "foodEffect": "明目養肝，抗衰老，滋補肝腎，延年益壽",
+    "foodProhibition": "性質溫熱，體質燥熱者謹慎，感冒發燒時停用",
+    "foodCatImg": "food41.png"
+  },
+  {
+    "foodID": "food42",
+    "foodName": "櫻桃",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫補血，益氣健脾，味甘，性溫",
+    "foodEffect": "補中益氣，健脾和胃，祛風勝濕，美容養顏",
+    "foodProhibition": "熱性疾病，虛熱咳嗽者不宜食用",
+    "foodCatImg": "food42.png"
+  },
+  {
+    "foodID": "food43",
+    "foodName": "石榴",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "甘溫,澀腸,性溫,味甘酸澀",
+    "foodEffect": "生津止渴，收斂固澀，止瀉止血，抗氧化",
+    "foodProhibition": "便秘，尿道炎，糖尿病，實熱者不宜食用",
+    "foodCatImg": "food43.png"
+  },
+  {
+    "foodID": "food44",
+    "foodName": "肉桂",
+    "foodCatID": "FC01",
+    "EligibleSTID": "st19,st20,st21,st23",
+    "foodDescription": "辛甘,大熱,性熱,味辛甘",
+    "foodEffect": "補火助陽，散寒止痛，活血通經，溫暖身體",
+    "foodProhibition": "體質燥熱，內有實熱，血熱者不宜使用",
+    "foodCatImg": "food44.png"
+  },
+  {
+    "foodID": "food45",
+    "foodName": "辣椒",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "辛熱,燥烈,性熱,味辛",
+    "foodEffect": "溫中散寒，開胃消食，發汗祛濕，溫脾暖胃",
+    "foodProhibition": "體質燥熱，咽喉腫痛，眼疾，高血壓者忌食",
+    "foodCatImg": "food45.png"
+  },
+  {
+    "foodID": "food46",
+    "foodName": "胡椒",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "辛熱,溫中,性熱,味辛",
+    "foodEffect": "溫中散寒，消痰解毒，開胃進食，促進消化",
+    "foodProhibition": "體質燥熱，咳嗽吐血，眼疾，痔瘡者忌食",
+    "foodCatImg": "food46.png"
+  },
+  {
+    "foodID": "food47",
+    "foodName": "花椒",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "辛熱,麻口,性熱,味辛",
+    "foodEffect": "溫中止痛，殺蟲止癢，溫脾除濕，去寒氣",
+    "foodProhibition": "體質燥熱，咳血，眼疾，多汗者忌食",
+    "foodCatImg": "food47.png"
+  },
+  {
+    "foodID": "food48",
+    "foodName": "芥末",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "辛熱,走竄,性熱,味辛",
+    "foodEffect": "溫中散寒，化痰利水，解毒消腫，開胃消食",
+    "foodProhibition": "胃炎，消化道潰瘍，眼疾，痔瘡患者忌食",
+    "foodCatImg": "food48.png"
+  },
+  {
+    "foodID": "food49",
+    "foodName": "咖哩",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "辛熱,複合,調料,性熱,味辛",
+    "foodEffect": "溫中散寒，開胃消食，發汗解表，殺菌消炎",
+    "foodProhibition": "胃炎，消化道潰瘍，發熱，咽喉腫痛者忌食",
+    "foodCatImg": "food49.png"
+  },
+  {
+    "foodID": "food50",
+    "foodName": "白酒",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "辛熱,升散,性熱,味辛,甘苦",
+    "foodEffect": "溫通血脈，祛寒壯神，行藥助力，殺蟲解毒",
+    "foodProhibition": "肝病，高血壓，心臟病，孕婦，兒童忌飲",
+    "foodCatImg": "food50.png"
+  },
+  {
+    "foodID": "food51",
+    "foodName": "鹿肉",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "甘溫,大補,性熱,味甘",
+    "foodEffect": "補脾益氣，溫腎壯陽，養血生精，強筋健骨",
+    "foodProhibition": "體質燥熱，血熱，痰火內盛者不宜食用",
+    "foodCatImg": "food51.png"
+  },
+  {
+    "foodID": "food52",
+    "foodName": "鵝肉",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "甘溫,補虛,性熱,味甘",
+    "foodEffect": "益氣補虛，和胃止渴，止咳化痰，清五臟熱",
+    "foodProhibition": "溫熱內蘊，皮膚瘡毒，瘙癢症患者忌食",
+    "foodCatImg": "food52.png"
+  },
+  {
+    "foodID": "food53",
+    "foodName": "海馬",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "甘溫,補腎,性熱,味甘",
+    "foodEffect": "補腎壯陽，調氣活血，散結消腫，舒筋活絡",
+    "foodProhibition": "體質燥熱，孕婦不宜使用",
+    "foodCatImg": "food53.png"
+  },
+  {
+    "foodID": "food54",
+    "foodName": "蛤蚧",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "鹹溫,補肺腎,性熱,味鹹",
+    "foodEffect": "補肺益腎，納氣定喘，助陽益精，強身健體",
+    "foodProhibition": "體質燥熱，風寒咳嗽，實熱喘滿者忌用",
+    "foodCatImg": "food54.png"
+  },
+  {
+    "foodID": "food55",
+    "foodName": "榴蓮",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "甘熱,滋補,性熱,味甘",
+    "foodEffect": "滋陰壯陽，增強免疫，開胃促食慾，營養豐富",
+    "foodProhibition": "糖尿病，心臟病，高膽固醇，熱性體質者忌食",
+    "foodCatImg": "food55.png"
+  },
+  {
+    "foodID": "food56",
+    "foodName": "芒果",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "甘熱,生津性,熱味,甘酸",
+    "foodEffect": "益胃生津，解渴利尿，止咳化痰，抗癌防癌",
+    "foodProhibition": "皮膚病，腫瘤，糖尿病患者需謹慎食用",
+    "foodCatImg": "food56.png"
+  },
+  {
+    "foodID": "food57",
+    "foodName": "橘子",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "甘酸,溫中,性熱,味甘酸",
+    "foodEffect": "開胃理氣，止渴潤肺，化痰止咳，健脾溫胃",
+    "foodProhibition": "體質燥熱，內熱，咽喉腫痛者應少食",
+    "foodCatImg": "food57.png"
+  },
+  {
+    "foodID": "food58",
+    "foodName": "炒花生",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "甘溫,潤燥,性熱,味甘",
+    "foodEffect": "健脾和胃，利腎去水，理氣通乳，治血症",
+    "foodProhibition": "膽病，腸炎，消化不良，內熱體質者忌食",
+    "foodCatImg": "food58.png"
+  },
+  {
+    "foodID": "food59",
+    "foodName": "炒瓜子",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "甘溫,補虛,性熱,味甘",
+    "foodEffect": "補虛損，降血脂，抗癌健腦，益智養神",
+    "foodProhibition": "肝炎，口舌生瘡，咽喉腫痛者忌食",
+    "foodCatImg": "food59.png"
+  },
+  {
+    "foodID": "food60",
+    "foodName": "油炸食品",
+    "foodCatID": "FC02",
+    "EligibleSTID": "st19,st24",
+    "foodDescription": "燥熱,傷陰,性熱",
+    "foodEffect": "提供熱量，增加食慾，改善口感，適量食用",
+    "foodProhibition": "肥胖，高血脂，消化不良，內熱體質者忌食",
+    "foodCatImg": "food60.png"
+  },
+  {
+    "foodID": "food61",
+    "foodName": "綠豆",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘涼,清熱,性涼,味甘",
+    "foodEffect": "清熱解毒，消暑利水，抗菌降脂，清涼養生",
+    "foodProhibition": "腸胃虛寒，身體陽虛，慢性腸胃炎患者忌食",
+    "foodCatImg": "food61.png"
+  },
+  {
+    "foodID": "food62",
+    "foodName": "冬瓜",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘淡,微涼,性涼,味甘淡",
+    "foodEffect": "利水消腫，清熱解毒，減肥瘦身，潤肺生津",
+    "foodProhibition": "腸胃虛寒，腎臟病，慢性腸炎患者謹慎食用",
+    "foodCatImg": "food62.png"
+  },
+  {
+    "foodID": "food63",
+    "foodName": "黃瓜",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘涼,清熱性,涼味甘",
+    "foodEffect": "清熱利水，解毒消腫，生津止渴，美容養顏",
+    "foodProhibition": "腸胃虛弱，腹痛腹瀉，肺寒咳嗽者少食",
+    "foodCatImg": "food63.png"
+  },
+  {
+    "foodID": "food64",
+    "foodName": "苦瓜",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "苦寒,清熱,性涼,味苦",
+    "foodEffect": "清熱解毒，明目清心，益氣壯陽，延緩衰老",
+    "foodProhibition": "腸胃虛寒，慢性腸炎，低血壓患者忌食",
+    "foodCatImg": "food64.png"
+  },
+  {
+    "foodID": "food65",
+    "foodName": "絲瓜",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘涼,清熱,性涼,味甘",
+    "foodEffect": "清熱化痰，涼血解毒，通經絡，下乳汁",
+    "foodProhibition": "腸胃虛寒，慢性腹瀉者不宜食用",
+    "foodCatImg": "food65.png"
+  },
+  {
+    "foodID": "food66",
+    "foodName": "茄子",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘涼,清熱,性涼,味甘",
+    "foodEffect": "清熱解毒，活血化瘀，利尿消腫，寬腸通便",
+    "foodProhibition": "腸胃虛寒，哮喘，便溏，手術患者忌食",
+    "foodCatImg": "food66.png"
+  },
+  {
+    "foodID": "food67",
+    "foodName": "白蘿蔔",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "辛甘,涼性,涼味,辛甘",
+    "foodEffect": "清熱生津，涼血止血，下氣寬中，消食化滯",
+    "foodProhibition": "腸胃虛寒，慢性胃炎，胃潰瘍患者謹慎食用",
+    "foodCatImg": "food67.png"
+  },
+  {
+    "foodID": "food68",
+    "foodName": "芹菜",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘涼,清肝,性涼,味甘",
+    "foodEffect": "平肝清熱，祛風利濕，除煩消腫，涼血止血",
+    "foodProhibition": "腸胃虛寒，腸滑，血壓偏低者謹慎食用",
+    "foodCatImg": "food68.png"
+  },
+  {
+    "foodID": "food69",
+    "foodName": "菠菜",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘涼,養血,性涼,味甘",
+    "foodEffect": "清熱解毒，促進腸道健康，補血養氣，增強免疫",
+    "foodProhibition": "腎炎，腎結石，腸胃虛寒，腹瀉者忌食",
+    "foodCatImg": "food69.png"
+  },
+  {
+    "foodID": "food70",
+    "foodName": "小白菜",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘涼,清熱,性涼,味甘",
+    "foodEffect": "養血止血，斂陰潤燥，通利腸胃，清胃熱",
+    "foodProhibition": "腸胃虛寒，大便稀薄者不宜食用",
+    "foodCatImg": "food70.png"
+  },
+  {
+    "foodID": "food71",
+    "foodName": "豆腐",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘涼,清熱,性涼,味甘",
+    "foodEffect": "益氣和中，生津潤燥，清熱解毒，降血脂",
+    "foodProhibition": "腸胃虛寒，慢性腸炎，易腹瀉者少食",
+    "foodCatImg": "food71.png"
+  },
+  {
+    "foodID": "food72",
+    "foodName": "鴨肉",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘涼,滋陰,性涼,味甘鹹",
+    "foodEffect": "滋陰養胃，利水消腫，止咳化痰，清虛熱",
+    "foodProhibition": "腸胃陽虛，寒濕腹瀉，腹痛，腰痛者忌食",
+    "foodCatImg": "food72.png"
+  },
+  {
+    "foodID": "food73",
+    "foodName": "兔肉",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘涼,補中,性涼,味甘",
+    "foodEffect": "補中益氣，涼血解毒，清熱止渴，健脾消積",
+    "foodProhibition": "腸胃虛寒，腹瀉，便溏者不宜食用",
+    "foodCatImg": "food73.png"
+  },
+  {
+    "foodID": "food74",
+    "foodName": "田螺",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘鹹,大寒,性涼,味甘鹹",
+    "foodEffect": "清熱利水，除濕解毒，平肝潛陽，明目養肝",
+    "foodProhibition": "腸胃虛寒，風寒感冒，女性經期忌食",
+    "foodCatImg": "food74.png"
+  },
+  {
+    "foodID": "food75",
+    "foodName": "螃蟹",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "鹹寒,清熱,性涼,味鹹",
+    "foodEffect": "清熱解毒，補骨添髓，養筋接骨，活血祛痰",
+    "foodProhibition": "腸胃虛寒，感冒，肝炎，心血管疾病患者忌食",
+    "foodCatImg": "food75.png"
+  },
+  {
+    "foodID": "food76",
+    "foodName": "蛤蜊",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "鹹寒,軟堅,性涼,味鹹",
+    "foodEffect": "滋陰潤燥，利尿消腫，軟堅散結，清熱解毒",
+    "foodProhibition": "腸胃虛寒，腹瀉，便溏者不宜食用",
+    "foodCatImg": "food76.png"
+  },
+  {
+    "foodID": "food77",
+    "foodName": "海帶",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "鹹寒,軟堅,性涼,味鹹",
+    "foodEffect": "軟堅散結，消痰利水，清熱解毒，降血壓",
+    "foodProhibition": "腸胃虛寒，甲狀腺功能亢進者謹慎食用",
+    "foodCatImg": "food77.png"
+  },
+  {
+    "foodID": "food78",
+    "foodName": "紫菜",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘鹹,寒性,涼味,甘鹹",
+    "foodEffect": "清熱利尿，軟堅散結，補腎養心，降血壓",
+    "foodProhibition": "腸胃虛寒，腹痛，便溏者不宜食用",
+    "foodCatImg": "food78.png"
+  },
+  {
+    "foodID": "food79",
+    "foodName": "梨",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘微酸涼,性涼,味甘微酸",
+    "foodEffect": "生津潤燥，清熱化痰，解酒毒，降血壓",
+    "foodProhibition": "腸胃虛寒，畏冷，糖尿病患者謹慎食用",
+    "foodCatImg": "food79.png"
+  },
+  {
+    "foodID": "food80",
+    "foodName": "柚子",
+    "foodCatID": "FC03",
+    "EligibleSTID": "st10,st11,st12",
+    "foodDescription": "甘酸涼,性涼,味甘酸",
+    "foodEffect": "理氣化痰，潤肺清腸，補血健脾，解酒毒",
+    "foodProhibition": "脾虛便溏，胃寒，正在服藥者謹慎食用",
+    "foodCatImg": "food80.png"
+  },
+  {
+    "foodID": "food81",
+    "foodName": "西瓜",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘寒,清熱,性寒,味甘",
+    "foodEffect": "清熱解暑，除煩止渴，利尿降壓，解酒毒",
+    "foodProhibition": "腸胃虛寒，消化不良，慢性腸炎，糖尿病忌食",
+    "foodCatImg": "food81.png"
+  },
+  {
+    "foodID": "food82",
+    "foodName": "香蕉",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘寒,潤腸,性寒,味甘",
+    "foodEffect": "清熱潤腸，促進腸胃蠕動，降血壓，解酒毒",
+    "foodProhibition": "腸胃陽虛，便溏腹瀉，胃酸過多，關節炎忌食",
+    "foodCatImg": "food82.png"
+  },
+  {
+    "foodID": "food83",
+    "foodName": "柿子",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘澀,寒性,寒味,甘澀",
+    "foodEffect": "清熱潤肺，生津止渴，健脾澀腸，止血",
+    "foodProhibition": "腸胃虛寒，痰濕內盛，風寒感冒，胃炎忌食",
+    "foodCatImg": "food83.png"
+  },
+  {
+    "foodID": "food84",
+    "foodName": "甘蔗",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘寒,清熱,性寒,味甘",
+    "foodEffect": "清熱生津，潤燥止渴，和中寬膈，解酒毒",
+    "foodProhibition": "腸胃虛寒，胃腹寒痛，糖尿病患者忌食",
+    "foodCatImg": "food84.png"
+  },
+  {
+    "foodID": "food85",
+    "foodName": "獼猴桃",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘酸,寒性,寒味,甘酸",
+    "foodEffect": "清熱生津，健脾止瀉，止渴利尿，抗癌防癌",
+    "foodProhibition": "腸胃虛寒，慢性腹瀉，先兆流產者忌食",
+    "foodCatImg": "food85.png"
+  },
+  {
+    "foodID": "food86",
+    "foodName": "火龍果",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘淡,微寒,性寒,味甘淡",
+    "foodEffect": "清熱涼血，通便利尿，護胃養胃，抗衰老",
+    "foodProhibition": "腸胃虛寒，面色蒼白，四肢乏力者少食",
+    "foodCatImg": "food86.png"
+  },
+  {
+    "foodID": "food87",
+    "foodName": "山竹",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘酸,微寒,性寒,味甘酸",
+    "foodEffect": "清熱降火，減肥瘦身，美容護膚，抗氧化",
+    "foodProhibition": "腸胃虛寒，心臟病，糖尿病，腎病患者忌食",
+    "foodCatImg": "food87.png"
+  },
+  {
+    "foodID": "food88",
+    "foodName": "椰子",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘寒,清熱,性寒,味甘",
+    "foodEffect": "清熱生津，利尿消腫，殺蟲消疳，美容養顏",
+    "foodProhibition": "腸胃虛弱，腹瀉便溏，濕熱體質者謹慎食用",
+    "foodCatImg": "food88.png"
+  },
+  {
+    "foodID": "food89",
+    "foodName": "蓮藕",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘寒,涼血,性寒,味甘",
+    "foodEffect": "清熱涼血，通便止瀉，健脾開胃，益血生肌",
+    "foodProhibition": "腸胃消化功能低下，大便稀溏者不宜生食",
+    "foodCatImg": "food89.png"
+  },
+  {
+    "foodID": "food90",
+    "foodName": "蓮子心",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "苦寒,清心,性寒,味苦",
+    "foodEffect": "清心安神，交通心腎，澀精止血，止汗固精",
+    "foodProhibition": "腸胃虛寒，慢性腹瀉者不宜食用",
+    "foodCatImg": "food90.png"
+  },
+  {
+    "foodID": "food91",
+    "foodName": "苦丁茶",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "苦甘,寒性,寒味,苦甘",
+    "foodEffect": "清熱消暑，明目益智，生津止渴，利尿強心",
+    "foodProhibition": "腸胃虛寒，慢性腸胃炎，風寒感冒者忌飲",
+    "foodCatImg": "food91.png"
+  },
+  {
+    "foodID": "food92",
+    "foodName": "綠茶",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "苦甘,微寒,性寒,味苦甘",
+    "foodEffect": "清熱解毒，提神醒腦，利尿消腫，抗癌防癌",
+    "foodProhibition": "腸胃虛寒，失眠，孕婦，貧血患者謹慎飲用",
+    "foodCatImg": "food92.png"
+  },
+  {
+    "foodID": "food93",
+    "foodName": "菊花茶",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘苦,微寒,性寒,味甘苦",
+    "foodEffect": "清熱解毒，平肝明目，清肺潤燥，解暑除煩",
+    "foodProhibition": "腸胃虛寒，陽虛體質，孕婦謹慎飲用",
+    "foodCatImg": "food93.png"
+  },
+  {
+    "foodID": "food94",
+    "foodName": "金銀花茶",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘寒,清熱,性寒,味甘",
+    "foodEffect": "清熱解毒，涼散風熱，涼血止痢，利尿養肝",
+    "foodProhibition": "腸胃虛寒，氣虛，瘡瘍膿清者忌服",
+    "foodCatImg": "food94.png"
+  },
+  {
+    "foodID": "food95",
+    "foodName": "決明子茶",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘苦,微寒,性寒,味甘苦",
+    "foodEffect": "清肝明目，潤腸通便，降脂減肥，清熱平肝",
+    "foodProhibition": "腸胃虛寒，脾虛腹瀉，低血壓患者忌飲",
+    "foodCatImg": "food95.png"
+  },
+  {
+    "foodID": "food96",
+    "foodName": "薄荷",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "辛涼疏散,性寒,味辛",
+    "foodEffect": "疏散風熱，清利頭目，利咽透疹，疏肝行氣",
+    "foodProhibition": "體質燥熱，肝陽偏亢，多汗者不宜使用",
+    "foodCatImg": "food96.png"
+  },
+  {
+    "foodID": "food97",
+    "foodName": "馬齒莧",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "酸寒清熱,性寒,味酸",
+    "foodEffect": "清熱解毒，涼血止血，止痢消腫，抗菌消炎",
+    "foodProhibition": "腸胃虛寒，腸滑腹瀉者，孕婦忌食",
+    "foodCatImg": "food97.png"
+  },
+  {
+    "foodID": "food98",
+    "foodName": "蒲公英",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "苦甘寒,性寒,味苦甘",
+    "foodEffect": "清熱解毒，利尿散結，消炎抗菌，保肝利膽",
+    "foodProhibition": "陽虛外寒，腸胃虛弱者不宜使用",
+    "foodCatImg": "food98.png"
+  },
+  {
+    "foodID": "food99",
+    "foodName": "海蜇",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "鹹平,微寒,性寒,味鹹",
+    "foodEffect": "清熱解毒，化痰軟堅，降壓消腫，潤腸通便",
+    "foodProhibition": "腸胃虛寒，過敏體質者不宜食用",
+    "foodCatImg": "food99.png"
+  },
+  {
+    "foodID": "food100",
+    "foodName": "田雞",
+    "foodCatID": "FC04",
+    "EligibleSTID": "st11,st12",
+    "foodDescription": "甘寒,清熱,性寒,味甘",
+    "foodEffect": "清熱解毒，補虛益精，利水消腫，養陰退熱",
+    "foodProhibition": "腸胃虛寒，感冒咳嗽，腸胃炎患者忌食",
+    "foodCatImg": "food100.png"
+  },
+  {
+    "foodID": "food101",
+    "foodName": "大米",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,補中,性平,味甘",
+    "foodEffect": "補中益氣，健脾養胃，除煩渴，止瀉痢",
+    "foodProhibition": "糖尿病患者控制用量，消化不良者少食",
+    "foodCatImg": "food101.png"
+  },
+  {
+    "foodID": "food102",
+    "foodName": "小麥",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,養心,性平,味甘",
+    "foodEffect": "養心安神，補虛止汗，清熱除煩，利小便",
+    "foodProhibition": "濕熱體質，消化不良者應少量食用",
+    "foodCatImg": "food102.png"
+  },
+  {
+    "foodID": "food103",
+    "foodName": "玉米",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,調中,性平,味甘",
+    "foodEffect": "調中開胃，益肺寧心，清濕熱，利肝膽",
+    "foodProhibition": "消化不良，腸胃功能不佳者少食",
+    "foodCatImg": "food103.png"
+  },
+  {
+    "foodID": "food104",
+    "foodName": "大豆",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,補虛,性平,味甘",
+    "foodEffect": "健脾寬中，潤燥消水，清熱解毒，益氣",
+    "foodProhibition": "消化不良，腹脹，痛風患者謹慎食用",
+    "foodCatImg": "food104.png"
+  },
+  {
+    "foodID": "food105",
+    "foodName": "黑豆",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,補腎,性平,味甘",
+    "foodEffect": "補腎益陰，健脾利濕，除熱解毒，烏髮明目",
+    "foodProhibition": "消化不良，腹脹悶滿者應少量食用",
+    "foodCatImg": "food105.png"
+  },
+  {
+    "foodID": "food106",
+    "foodName": "紅豆",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘酸,平性,平味,甘酸",
+    "foodEffect": "利水除濕，和血排膿，消腫解毒，清熱去濕",
+    "foodProhibition": "尿多，體瘦者應少量食用",
+    "foodCatImg": "food106.png"
+  },
+  {
+    "foodID": "food107",
+    "foodName": "花生",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,潤肺,性平,味甘",
+    "foodEffect": "潤肺化痰，滋養補益，延緩衰老，凝血止血",
+    "foodProhibition": "膽囊疾病，消化不良，高血脂患者少食",
+    "foodCatImg": "food107.png"
+  },
+  {
+    "foodID": "food108",
+    "foodName": "芝麻",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,補肝腎,性平,味甘",
+    "foodEffect": "補肝腎，潤五臟，益精血，潤腸燥",
+    "foodProhibition": "脾虛便溏者應少量食用",
+    "foodCatImg": "food108.png"
+  },
+  {
+    "foodID": "food109",
+    "foodName": "山藥",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平補脾肺腎性平味甘",
+    "foodEffect": "健脾養胃，補腎澀精，益肺止咳，補氣養陰",
+    "foodProhibition": "實邪及濕盛者不宜食用",
+    "foodCatImg": "food109.png"
+  },
+  {
+    "foodID": "food110",
+    "foodName": "蓮子",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘澀,平性,平味,甘澀",
+    "foodEffect": "補脾止瀉，益腎澀清，養心安神，滋養身體",
+    "foodProhibition": "中滿痞脹及大便燥結者忌食",
+    "foodCatImg": "food110.png"
+  },
+  {
+    "foodID": "food111",
+    "foodName": "百合",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘微,寒平,性平,味甘,微苦",
+    "foodEffect": "養陰潤肺，清心安神，補中益氣，滋養身體",
+    "foodProhibition": "風寒咳嗽，腸胃虛寒者謹慎食用",
+    "foodCatImg": "food111.png"
+  },
+  {
+    "foodID": "food112",
+    "foodName": "銀耳",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘淡,平性,平味,甘淡",
+    "foodEffect": "滋陰潤肺，養胃生津，益氣活血，補腦強心",
+    "foodProhibition": "外感風寒，濕熱內盛者忌食",
+    "foodCatImg": "food112.png"
+  },
+  {
+    "foodID": "food113",
+    "foodName": "木耳",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,涼血,性平,味甘",
+    "foodEffect": "涼血止血，潤肺益胃，清熱解毒，益氣強身",
+    "foodProhibition": "腸胃虛寒，腹瀉者不宜食用",
+    "foodCatImg": "food113.png"
+  },
+  {
+    "foodID": "food114",
+    "foodName": "香菇",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,益胃,性平,味甘",
+    "foodEffect": "益胃氣，托痘疹，降血脂，抗癌增強免疫",
+    "foodProhibition": "腸胃寒濕，氣滯者謹慎食用",
+    "foodCatImg": "food114.png"
+  },
+  {
+    "foodID": "food115",
+    "foodName": "胡蘿蔔",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,補肝,明目,性平,味甘",
+    "foodEffect": "健脾消食，補肝明目，清熱解毒，降氣止咳",
+    "foodProhibition": "腸胃虛弱者應少量食用",
+    "foodCatImg": "food115.png"
+  },
+  {
+    "foodID": "food116",
+    "foodName": "土豆",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,和胃,性平,味甘",
+    "foodEffect": "和胃調中，健脾益氣，解毒消炎，寬腸通便",
+    "foodProhibition": "糖尿病患者需控制用量",
+    "foodCatImg": "food116.png"
+  },
+  {
+    "foodID": "food117",
+    "foodName": "包菜",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘平,益脾胃,性平,味甘",
+    "foodEffect": "補骨髓，潤臟腑，益心力，壯筋骨利臟器",
+    "foodProhibition": "甲狀腺功能低下者少食",
+    "foodCatImg": "food117.png"
+  },
+  {
+    "foodID": "food118",
+    "foodName": "蘋果",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘酸,平性,平味,甘酸",
+    "foodEffect": "生津潤肺，除煩解暑，開胃醒酒，止瀉",
+    "foodProhibition": "腸胃虛寒型慢性腹瀉需用錫紙包裹煨熟食用",
+    "foodCatImg": "food118.png"
+  },
+  {
+    "foodID": "food119",
+    "foodName": "葡萄",
+    "foodCatID": "FC05",
+    "EligibleSTID": "st04,st16",
+    "foodDescription": "甘酸,平性,平味,甘酸",
+    "foodEffect": "補氣血，強筋骨，利小便，安胎氣解酒毒",
+    "foodProhibition": "糖尿病患者，腸胃虛寒者應少量食用",
+    "foodCatImg": "food119.png"
+  }
+]
