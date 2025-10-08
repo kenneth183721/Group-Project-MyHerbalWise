@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Registration and login functions require executing npm run server.
+
+## Available Scripts
+
 In the project directory, you can run:
 
 ### `npm start`
