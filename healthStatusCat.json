@@ -1,0 +1,26 @@
+[
+    {"healthStatusCatID":"hscID01",
+    "healthStatusCatName":"頭部類（神經/感官）"
+},
+    {"healthStatusCatID":"hscID02",
+    "healthStatusCatName":"呼吸系統（肺系病）"
+},
+    {"healthStatusCatID":"hscID03",
+    "healthStatusCatName":"消化系統"
+},
+    {"healthStatusCatID":"hscID04",
+    "healthStatusCatName":"血液與代謝"
+},
+    {"healthStatusCatID":"hscID05",
+    "healthStatusCatName":"泌尿與男科"
+},
+    {"healthStatusCatID":"hscID06",
+    "healthStatusCatName":"骨科與筋骨病"
+},
+    {"healthStatusCatID":"hscID07",
+    "healthStatusCatName":"心血管與胸腹"
+},
+    {"healthStatusCatID":"hscID08",
+    "healthStatusCatName":"臍部疾患"
+}
+]

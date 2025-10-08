@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Push Notification Debug</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Push Notification Diagnostic</h1>
+    <button id="requestPermission">🔔 Request Notification Permission</button>
+    <button id="checkStatus">Check Notification Status</button>
+    <button id="testWeb">Test Web Notification</button>
+    <button id="checkSW">Check Service Worker</button>
+    
+    <div id="results" style="margin-top: 20px; font-family: monospace; white-space: pre-line;"></div>
+
+    <script>
+        const results = document.getElementById('results');
+        
+        function log(message) {
+            results.textContent += new Date().toLocaleTimeString() + ': ' + message + '\n';
+            console.log(message);
+        }
+        
+        document.getElementById('requestPermission').onclick = async function() {
+            if ('Notification' in window) {
+                const permission = await Notification.requestPermission();
+                log('🔔 Permission request result: ' + permission);
+                
+                if (permission === 'granted') {
+                    log('✅ Notifications are now enabled!');
+                } else {
+                    log('❌ Notification permission denied. Please check browser settings.');
+                }
+            } else {
+                log('❌ This browser does not support notifications');
+            }
+        };
+        
+        document.getElementById('checkStatus').onclick = async function() {
+            results.textContent = '';
+            
+            // Check notification permission
+            log('🔍 Notification permission: ' + Notification.permission);
+            
+            // Check if browser supports notifications
+            log('🔍 Browser supports notifications: ' + ('Notification' in window));
+            
+            // Check if browser supports service workers
+            log('🔍 Browser supports service workers: ' + ('serviceWorker' in navigator));
+            
+            // Check if push is supported
+            log('🔍 Browser supports push: ' + ('PushManager' in window));
+            
+            // Check service worker registration
+            if ('serviceWorker' in navigator) {
+                try {
+                    const registration = await navigator.serviceWorker.getRegistration('/');
+                    log('🔍 Service worker registered: ' + !!registration);
+                    if (registration) {
+                        log('🔍 Service worker scope: ' + registration.scope);
+                        log('🔍 Service worker state: ' + (registration.active ? registration.active.state : 'none'));
+                    }
+                } catch (error) {
+                    log('❌ Service worker error: ' + error.message);
+                }
+            }
+        };
+        
+        document.getElementById('testWeb').onclick = function() {
+            if (Notification.permission === 'granted') {
+                const notification = new Notification('🧪 Test Web Notification', {
+                    body: 'If you see this, web notifications are working!',
+                    icon: '/logo192.png',
+                    tag: 'test-web'
+                });
+                
+                notification.onclick = function() {
+                    log('✅ Web notification clicked');
+                    notification.close();
+                };
+                
+                log('📱 Web notification sent');
+            } else {
+                log('❌ Notification permission not granted');
+            }
+        };
+        
+        document.getElementById('checkSW').onclick = async function() {
+            if ('serviceWorker' in navigator) {
+                try {
+                    const registration = await navigator.serviceWorker.register('/sw.js');
+                    log('✅ Service worker registered successfully');
+                    
+                    // Wait for it to be ready
+                    await navigator.serviceWorker.ready;
+                    log('✅ Service worker is ready');
+                    
+                } catch (error) {
+                    log('❌ Service worker registration failed: ' + error.message);
+                }
+            }
+        };
+    </script>
+</body>
+</html>
