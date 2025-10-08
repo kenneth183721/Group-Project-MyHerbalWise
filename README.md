@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Registration and login functions
+## Registration and Login Functions
 
 Registration and login functions require executing npm run server.
 
