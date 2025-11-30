@@ -4,7 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Registration and Login Functions
 
-Registration and login functions require executing npm run server.
+The live site does not allow Registration and Login as a member.
+
+Registration and Login functions require running npm run server on your local computer.
 
 ## Available Scripts
 
