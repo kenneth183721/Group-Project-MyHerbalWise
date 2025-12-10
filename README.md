@@ -1,7 +1,6 @@
 # Description
 
-This is a platform for information about Traditional Chinese Medicine, 
-allowing users to understand their own constitution and receive various precautions and suggestions.
+Group Project MyHerbalWise is a React-based web app that promotes Chinese herbal wellness through an accessible, modern UI. It lets users explore herbs, teas, and remedies with structured information and clear categorization. The project focuses on responsive design, intuitive navigation, and a visually calm experience suitable for both desktop and mobile visitors.
 
 ## Registration and Login Functions
 
