@@ -92,9 +92,6 @@ function PanelHeader({ navigate, onLogout, user }) {
             
             <nav className={isMobileMenuOpen ? 'mobile-nav-open' : ''}>
                 <ul className='nav-left'>
-                    <li onClick={() => handleNavClick('home')}>
-                        首頁
-                    </li>
                     <li onClick={() => handleNavClick('body-type-test')}>
                         體質測評
                     </li>
@@ -136,3 +133,4 @@ function PanelHeader({ navigate, onLogout, user }) {
 }
 
 export default PanelHeader;
+
